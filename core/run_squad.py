@@ -101,8 +101,8 @@ def read_squad_examples(input_data):
         return False
 
     examples = []
-    for paragraph in input_data["paragraphs"]:
-        paragraph_text = paragraph["context"]
+    for paragraph in input_data[""]:
+        paragraph_text = paragraph["text"]
         doc_tokens = []
         char_to_word_offset = []
         prev_is_whitespace = True
@@ -117,7 +117,7 @@ def read_squad_examples(input_data):
                 prev_is_whitespace = False
             char_to_word_offset.append(len(doc_tokens) - 1)
 
-        for qa in paragraph["questions"]:
+        for qa in paragraph["qa"]["questions"]:
 
             example = SquadExample(
                 qas_id=qa["id"],

@@ -34,14 +34,6 @@ logger = logging.getLogger()
 
 class ModelWrapper(MAXModelWrapper):
 
-    MODEL_META_DATA = {
-        'id': 'max-question-answering',
-        'name': API_TITLE,
-        'description': API_DESC,
-        'type': 'Natural Language Processing',
-        'source': 'https://developer.ibm.com/exchanges/models/all/max-question-answering/',
-        'license': 'Apache 2.0'
-    }
 
     def __init__(self, path=DEFAULT_MODEL_PATH):
         logger.info('Loading model from: {}...'.format(path))
@@ -64,8 +56,8 @@ class ModelWrapper(MAXModelWrapper):
         # if question ids are not included, generate them
         # Note: this may not work if the input data only has question ids for some of the questions
         unique_id = 1
-        for article in inp["paragraphs"]:
-            questions = article["questions"]
+        for article in inp[""]:
+            questions = article["qa"]["question"]
             for i in range(len(questions)):
                 try:
                     questions[i]["id"]

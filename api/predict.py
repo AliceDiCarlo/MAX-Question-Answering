@@ -74,12 +74,12 @@ class ModelPredictAPI(PredictAPI):
 
         input_json = MAX_API.payload
         try:
-            for p in input_json["paragraphs"]:
-                if frozenset(p.keys()) != frozenset(["context", "questions"]):
-                    abort(400, f"Invalid input paragraph keys {list(p.keys())}, please provide a context and questions.")
-                if p["context"] == "":
+            for p in input_json[]:
+                if frozenset(p.keys()) != frozenset(["id","title","text", "qa"]):
+                    abort(400, f"Invalid input paragraph keys {list(p.keys())}, please provide a text and questions.")
+                if p["text"] == "":
                     abort(400, "Invalid input, please provide a paragraph.")
-                if not isinstance(p["questions"], list):
+                if not isinstance(p["qa"], list):
                     abort(400, "Invalid input, questions should be a list.")
         except KeyError:
             abort(400, "Invalid input, please check that the input JSON has a `paragraphs` field.")
@@ -90,7 +90,7 @@ class ModelPredictAPI(PredictAPI):
         # Create a flat list of answers
         answers_list = ["" if not preds[p][0] else preds[p][1] for p in preds]
         # Create a split of how many elements go in each list
-        splits = [len(p['questions']) for p in input_json['paragraphs']]
+        splits = [len(p['qa']) for p in input_json[]]
         # Create an empty answers list
         answers = []
         # Populate this list based on above split of nested lists

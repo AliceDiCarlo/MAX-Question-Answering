@@ -1,1 +1,1610 @@
-{"paragraphs": [{"context": "The choice among algorithm categories can partially be made based on the user persona's ability to intervene at different parts of a machine learning pipeline.  If the user is allowed to modify the training data, then pre-processing can be used.  If the user is allowed to change the learning algorithm, then in-processing can be used.  If the user can only treat the learned model as a black box without any ability to modify the training data or learning algorithm, then only post-processing can be used.  AIF360 recommends the earliest mediation category in the pipeline that the user has permission to apply because it gives the most flexibility and opportunity to correct bias as much as possible. If possible, all algorithms from all permissible categories should be tested because the ultimate performance depends on dataset characteristics: there is no one best algorithm independent of dataset.", "questions": ["When can preprocessing be used?"]}]}
+[{
+    "id": 1,
+    "title": "Computer Science Department University of Crete",
+    "text": "The Computer Science Department of the University of Crete operates since 1984, historically the second Computer Science Department to operate in Greece. The Computer Science Department belongs to the School of Sciences and Engineering, which operates in Heraklion. The School was founded as School of Physical & Mathematical Sciences in 1973 and renamed as the School of Science in 1984. The Department of Computer Sciences was established in 1983. In FEK 388 / 5.7.83 was conversion and distribution of vacancies at the University of Crete and was first given to the Department of Computer Science 13 faculty positions.  The graduate program of the Department began operating in 1985 as \"Master Program in Computer Science\". In 1992 all postgraduate studies in Greece were organized under N2083 / 1992 (FEK159 / A / 21.09.1992) Chapter V \"Graduate Studies\" which replaced Article 81 of Law 1566/1985 and was based on Postgraduate Studies Regulation of the Department, on the proposal of the Department to the Ministry of Education for the modernization of postgraduate studies in Greece. From February 1994 works with the Senate and after approval of the program by the Ministry of Education (FEK 866 / 11.26.93). In 2003 (FEK1694 / vol.B '/ 11.19.2003) renewed operation of the Postgraduate Studies Program and the academic year 2014-2015 operates on the revised Postgraduate Studies Program (PSP) entitled \"Science and Computer Engineering\".  The Department gradually staffed by excellent scientists. The Computer Science Department elected the first faculty in 1981 and became operational in 1984 so accepted and the first undergraduates. In February 1985 the postgraduate program was established. Today the department has twenty-one (21) Professors and regularly hosts academic scholars as visiting faculty professors.  At thirty-five (35) years of operation has developed and implemented a modern curriculum. Today, a significant contribution to higher education in our country in science and computer technology issues are recognized by educational work at the undergraduate and graduate level, with quality acclaimed internationally.  The Department even since its establishment, had a strong research orientation. Since the inception of the Department works closely with the Institute of Computer Science (ICS) of the Foundation for Research and Technology Hellas (FORTH). This cooperation, which continues today, creates an excellent environment for research and education. The research of the Department now enjoys international recognition. Members of the Department throughout the history of the Department and even more today, hold important international collaborations with leading academic and research institutions and also with industry in areas of crucial interest.  The Department is recognized today as one of the top departments in computer science in the country.  Based on a recent study of the work of the Departments of Computer Engineering and Computer Science of  the country based on bibliographical indices, the Department of Computer Science was ranked first among all departments.",
+    "qa": [{
+            "question": "When was the postgraduate program established?",
+            "answer": "February 1985/1985",
+            "entity": "DATE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "With which organization CSD closely work?",
+            "answer": "Foundation for Research and Technology Hellas (FORTH)",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What ministry is responsible for the department?",
+            "answer": "Ministry of Education",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What ministry is responsible for the department?",
+            "answer": "Ministry of Education",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What is the number of professors in the department?",
+            "answer": "21",
+            "entity": "NUMBER",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Where the department is located?",
+            "answer": "Heraklion",
+            "entity": "LOCATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "When was the Department created?",
+            "answer": "1984",
+            "entity": "YEAR",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "How many years does the Department operate?",
+            "answer": "35",
+            "entity": "NUMBER",
+            "note": "group A, factoid, verbatim"
+        }
+    ]
+},
+{
+    "id": 2,
+    "title": "Gone with the wind",
+    "text": "Gone with the Wind is a 1939 American epic historical romance film, adapted from Margaret Mitchell's 1936 novel of the same name. The film was produced by David O. Selznick of Selznick International Pictures and directed by Victor Fleming. Set in the American South against the backdrop of the American Civil War and the Reconstruction era, the film tells the story of Scarlett O'Hara, the strong-willed daughter of a  Georgia plantation owner. It follows her romantic pursuit of Ashley Wilkes, who is married to his cousin, Melanie Hamilton, and her subsequent marriage to Rhett Butler. The leading roles are played by Vivien Leigh (Scarlett), Clark Gable (Rhett), Leslie Howard (Ashley), and Olivia de Havilland (Melanie).       Running time: 221 minutes 234–238 minutes (with overture, intermission, entr'acte, and exit music)      Budget: $3.85 million",
+    "qa": [{
+            "question": "Who played Scarlett O'Hara?",
+            "answer": "Vivien Leigh",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Who directed Gone with the Wind?",
+            "answer": "Victor Fleming",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Where is the story set?",
+            "answer": "American South",
+            "entity": "LOCATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What are the genres of the movie?",
+            "answer": "epic,historical,romance",
+            "entity": "GENRE",
+            "note": "group A, factoid, verbatim, list"
+        },
+        {
+            "question": "When did the novel published?",
+            "answer": "1936",
+            "entity": "YEAR",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What is the name of the role played by Clark Gable?",
+            "answer": "Rhett",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What was the budget of the film?",
+            "answer": "$3.85 million",
+            "entity": "MONEY",
+            "note": "group A, factoid, verbatim"
+        }
+    ]
+},
+{
+    "id": 3,
+    "title": "Putrajaya",
+    "text": "Putrajaya, an \"Intelligent Garden City\" and the federal administrative capital of Malaysia, is a showcase city under construction some 30 km south of the capital Kuala Lumpur. Her adjacent sister city, Cyberjaya, is built along the same lines, but is aimed at attracting the IT industry. The area was f     ormerly known as Prang Besar. Named after the first Malaysian Prime Minister, Tunku Abdul Rahman Putra Al-Haj,      the territory is entirely enclaved within the Sepang District of the state of Selangor.      Putrajaya is also a part of MSC Malaysia, a special economic zone that covers Klang Valley.      In Sanskrit, \"putra\"(पुत्र) means \"prince\" or \"male child\", and \"jaya\"(जया) means \"success\" or \"victory\". The development of Putrajaya started in the early 1990s; today, major landmarks have been completed and the population is expected to grow in the near future.",
+    "qa": [{
+            "question": "How can we describe Putrajaya?",
+            "answer": "Intelligent Garden City",
+            "entity": "QUOTE",
+            "note": "group A, factoid,verbatim"
+        },
+        {
+            "question": "Is Cyberjaya the administrative capital of Malaysia?",
+            "answer": "No",
+            "entity": "CONFIRMATION",
+            "note": "group A, confirmation, distance"
+        },
+        {
+            "question": "Who was the first Malaysian Prime Minister?",
+            "answer": "Tunku Abdul Rahman Putra Al-Haj",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Is Putrajaza the administrative capital of Malaysia?",
+            "answer": "Yes",
+            "entity": "CONFIRMATION",
+            "note": "group A, confirmation, spelling"
+        },
+        {
+            "question": "What does jaya mean in Sanskrit?",
+            "answer": "success, victory",
+            "entity": "MEANING",
+            "note": "group A, factoid, verbatim, connectives"
+        },
+        {
+            "question": "What was the former name of Putrajaya?",
+            "answer": "Prang Besar",
+            "entity": "NAME",
+            "note": "group A, factoid, verbatim"
+        }
+    ]
+},
+{
+    "id": 4,
+    "title": "Wolfgang Amadeus Mozart",
+    "text": "Wolfgang Amadeus Mozart was born on 27 January 1756 to Leopold Mozart (1719–1787)  and Anna Maria, née Pertl (1720–1778), at 9 Getreidegasse in Salzburg. Mozart   (27 January 1756 – 5 December 1791),  was a prolific and influential composer of the classical era. He composed more than 600 works. Ηis influence is profound on subsequent Western art music. Ludwig van Beethoven composed his own early works in the shadow of Mozart, and Joseph Haydn wrote: \"posterity will  not see such a talent again in 100 years\"",
+    "qa": [{
+            "question": "What was the first name of Mozart's father",
+            "answer": "Leopold",
+            "entity": "NAME",
+            "note": "group A, factoid, ner, gazetteer"
+        },
+        {
+            "question": "What was Mozart's profession?",
+            "answer": "composer",
+            "entity": "PROFESSION",
+            "note": "group A, factoid,ner or gazetteer"
+        },
+        {
+            "question": "What was the address of Mozart's birthplace?",
+            "answer": "9 Getreidegasse Salzburg/9 Getreidegasse",
+            "entity": "ADDRESS",
+            "note": "group A, confirmation, verbatim"
+        }
+    ]
+},
+{
+    "id": 5,
+    "title": "Veneziano Boutique Hotel",
+    "text": "Veneziano Boutique Hotel is in a historic landmark building, in one of the most elegant architectural buildings of the city of Heraklion, has a beautiful interior courtyard and includes all the modern luxuries. The Architecture elements of Venetian and Ottoman era of this famous building have been restored and renovated with respect by the owners in collaboration with the local archaeological department. Over the years, the nations and the cultures that passed from Crete are reflected in the most vivid way through buildings that have survived to our days. One of those buildings – with the most elegant architectural elements in Heraklion, is the two-storey house located in the historic city center on the corner of the streets Nikou Kazantzakis & 1770 which is transformed in to a beautiful Boutique Hotel. The history of the building begins the period of the Venetian occupation around 1510 and completed by adding one floor during the period of Ottoman occupation in 1730, in order to house senior officers. The main building was the residence of the first Aga of Heraklion and the building in the courtyard was his stable. In the courtyard there was a tower and from that point they could protect the Aga. In the basement were the baths of the house. The groundfloor is said to be the room where the stableman lived. The first floor was the Aga’s space where was his room and the room that accommodated his wives. The building is classified as historical monument and a work of art by the Ministry of Culture and the Ministry of Public Works. The Venetian and Ottoman elements of this charming building have been restored carefully, honoring the heritage of the building in collaboration with the local archaeological service. The building is a typical example of Venetian and Ottoman architecture and is set with a wooden roof. The use of wood characterizes the architecture and the morphological composition. The windows have a wooden frame and thin molding, while wooden jambs protrude slightly at the corners of the enclosed balconies. At the end of the structure there is a complex and wide wooden molding. The building is organized in two wings that form the letter Γ of the Greek alphabet with each other and define a large internal courtyard. Here was a meeting place for nobles and lords who were discussing various issues as economical, commercial, political that concerned the city, or they passed their free time. It was something like a combination of a chamber and a club. For this reason the building had five hidden exits in case of an emergency. After the renovation the building accommodates 4 superior double rooms and 2 double floor family apartments. On the ground floor that is connected with the courtyard there is the Café & Wine bar that will offer Cretan diet breakfast. On the basement operates the Spa Center where the Ottoman culture re-experience which already exists 1 N. Kazantzaki & 1770 Heraklion Crete P.C. 71202 GREECE Tel: 0030 2810344758 | Fax: 0030 2810334752 E-mail: info@veneziano.gr ",
+    "qa": [{
+            "question": "What is the telephone of the Veneziano Boutique Hotel?",
+            "answer": "0030 2810344758",
+            "entity": "TELEPHONE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "When the construction of the building is completed?",
+            "answer": "1730",
+            "entity": "DATE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What material dominates the whole building?",
+            "answer": "wood",
+            "entity": "MATERIAL",
+            "note": "group A, factoid, gazetteer"
+        },
+        {
+            "question": "Who was the first resident of the building?",
+            "answer": "the first Aga of Heraklion",
+            "entity": "PERSON",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "What architectural styles characterize this building?",
+            "answer": "Venetian and Ottoman",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid, stemming"
+        }
+    ]
+},
+{
+    "id": 6,
+    "title": "Antibiotics",
+    "text": "An antibiotic is a type of antimicrobial substance active against      bacteria and is the most important type of antibacterial agent for fighting bacterial infections. Antibiotic medications are widely used in the treatment and prevention of such infections. They may either kill or inhibit the growth of bacteria.      A limited number of antibiotics also possess antiprotozoal activity.      Antibiotics are not effective against viruses such as the common cold or influenza; drugs which inhibit viruses are termed antiviral drugs or antivirals rather than antibiotics. Sometimes, the term antibiotic which means opposing life, based on Greek roots, (ἀντι-) anti: against and (βίος-) biotic: life, is broadly used to refer to any substance used against microbes, but in the usual medical usage, antibiotics (such as penicillin) are those produced naturally (by one microorganism fighting another), whereas nonantibiotic antibacterials (such as sulfonamides and antiseptics) are fully synthetic. However, both classes have the same goal of      killing or preventing the growth of microorganisms, and both are included in antimicrobial chemotherapy.      Antibacterials include antiseptic drugs, antibacterial soaps, and chemical disinfectants,      whereas antibiotics are an important class of antibacterials used more specifically in medicine      and sometimes in livestock feed. Antibiotics revolutionized medicine in the 20th century. However, their effectiveness and easy access have also led to their overuse, and some bacteria have developed resistance.      This has led to widespread problems, and the World Health Organization have classified antimicrobial resistance as a serious threat [that] is no longer a prediction for the future,      it is happening right now in every region of the world and has the potential to affect anyone, of any age,      in any country.",
+    "qa": [{
+            "question": "In what century did antibiotics revolutionized medicine?",
+            "answer": "20th century",
+            "entity": "TIME",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "When were antibiotics created?",
+            "answer": "20th century",
+            "entity": "TIME",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "What organization called antimicrobial resistance a 'serious threat?'",
+            "answer": "World Health Organization",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, stemming"
+        }
+    ]
+},
+{
+    "id": 7,
+    "title": "Tiramisu",
+    "text": "Tiramisu (from the Italian language, spelled tiramisù [ˌtiramiˈsu], meaning 'pick me up' or 'cheer me up')      is a coffee-flavoured Italian dessert. It is made of ladyfingers (savoiardi) dipped in coffee, layered with a       whipped mixture of eggs, sugar, and mascarpone cheese, flavoured with cocoa. The recipe has been adapted into many varieties of cakes and other desserts.         Its origins are often disputed among Italian regions of Veneto and Friuli-Venezia Giulia.          Most accounts of the origin of tiramisu date its invention to the 1960s in the region of Veneto,          Italy, at the restaurant 'Le Beccherie' in Treviso. Specifically, the dish is claimed to have first been          created by a confectioner named Roberto Linguanotto, owner of 'Le Beccherie'.  Category              Dessert recipes Servings     4-6 Energy     200 Cal (800 kJ) Time     15 minutes + 1 hour refrigeration Difficulty: 2/5           Ingredients for 6–8 people     4 egg whites     2 egg yolks     100 g (1/2 cup) of sugar                500 g (2 1/2 cups) of mascarpone cheese     4 small coffee cups of espresso coffee                  400 g of lady fingers (savoiardi) (or sponge cake) unsweetened cocoa powder to sprinkle over before serving               Preparation                      Make espresso coffee, let it cool a bit.     Separate the egg yolks and the whites of two eggs in two bowls.     Beat sugar into the egg yolks. Beat the Mascarpone into the sweetened yolks.     Add two more egg whites to the other two and whisk until they form stiff peaks. Fold gently egg whites into Mascarpone mixture.     Quickly dip both sides of the ladyfingers in the espresso.     Layer soaked ladyfingers and Mascarpone in a large bowl or pan (start with fingers, finish with mascarpone).     Sprinkle unsweetened cocoa powder on top just before to serve.     Refrigerate for one hour or two.                                 ",
+    "qa": [{
+            "question": "What tiramisu means?",
+            "answer": "pick me up / cheer me up",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "From which Italian regions has its origins this dessert?",
+            "answer": "Veneto and Friuli-Venezia Giulia",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is the name of the restaurant that the first tiramisu was made?",
+            "answer": "Le Beccherie",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Who has made the first tiramisu?",
+            "answer": "Roberto Linguanotto",
+            "entity": "PERSON",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What kind of coffee is used in tiramisu?",
+            "answer": "espresso",
+            "entity": "INGREDIENT",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "List some ingredients of tiramisu?",
+            "answer": "eggs, sugar, mascarpone cheese, espresso coffee, cocoa",
+            "entity": "INGREDIENT",
+            "note": "group A, list"
+        }
+    ]
+},
+{
+    "id": 8,
+    "title": "Aladdin",
+    "text": "Disney presents Aladdin  Breathtaking sets, mind-blowing special effects, over 350 lavish costumes  and a fabulous cast and orchestra combine to bring the magic of Disney’s Aladdin to life on the West End stage.      Featuring all the songs from the classic Academy Award-winning film including Friend Like Me,      A Whole New World and Arabian Nights, prepare to experience the      unmissable 'theatrical magic' (Daily Telegraph) that is Aladdin.      Recommended age 6+. Please note: children under 3 will not be admitted.      All persons aged 16 or under must be accompanied and sat next to the accompanying adult.      This production contains theatrical smoke and fog effects, pyrotechnics, strobe lighting and loud noises.    Performance Times Monday to Saturday at 7:30pm Thursday and Saturday at 2:30pm     The theatre usually opens 45-60 minutes prior to the performance commencing. We recommend that you arrive at least 30 minutes prior to the performance start time.      Duration The performance lasts approximately 2 hours and 30 minutes and includes one interval. Suitable For Children Aladdin is recommended for a general audience.      As an advisory to adults who might bring young people, Disney recommends Aladdin for ages 6 and up.      Children under the age of 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied and sat next to the accompanying adult. They may not sit on their own within the auditorium. If children do have separate seats you could be refused entry. All persons entering the theatre, regardless of age, must have a ticket.       Special effects Aladdin contains theatrical smoke & fog effects, pyrotechnics, strobe lighting and loud noises.       Recording equipment The use of camera and sound recording equipment is strictly prohibited.     The Prince Edward Theatre in London’s Soho is owned and operated by Delfont Mackintosh Theatres.",
+    "qa": [{
+            "question": "Who directed Aladdin?",
+            "answer": "Casey Nicholaw",
+            "entity": "PERSON",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Which theatre stages Aladdin?",
+            "answer": "Prince Edward Theatre",
+            "entity": "THEATRE",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "How many customs are used in the performance",
+            "answer": "350",
+            "entity": "NUMBER",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What are the times of performances scheduled",
+            "answer": "Monday to Saturday at 7:30pm  and Thursday and Saturday at 2:30pm",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Where Prince Edward Theatre is located?",
+            "answer": "London Soho/Soho",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Who is the owner of Prince Edward Theatre?",
+            "answer": "Delfont Mackintosh Theatres",
+            "entity": "COMPANY",
+            "note": "group A, factoid"
+        }
+    ]
+},
+{
+    "id": 9,
+    "title": "London",
+    "text": "London (/ˈlʌndən/ (About this soundlisten) LUN-dən) is the capital and largest city of      England and the United Kingdom. Standing on the River Thames in southeastern England, at the head of its 50-mile (80 km) estuary leading to the North Sea, London has been a major settlement for two millennia. Londinium was founded by the Romans. The City of London, London's ancient core − an area of just 1.12 square miles (2.9 km2) and colloquially known as the Square Mile − retains boundaries that follow closely its medieval limits. The City of Westminster is also an Inner London borough holding city status. Greater London is governed by the Mayor of London and the London Assembly. London is considered to be one of the world's most important global cities and has been termed the world's most powerful, most desirable, most influential, most visited, most expensive, innovative, sustainable, most investment friendly, most popular for work, and the most vegetarian friendly city in the world. London exerts a considerable impact upon the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism and transportation. London ranks 26 out of 300 major cities for economic performance. It is one of the largest financial centres and has either the fifth or sixth largest metropolitan area GDP. It is the most-visited city as measured by international arrivals and has the busiest city airport system as measured by passenger traffic. It is the leading investment destination, hosting more international retailers and ultra high-net-worth individuals than any other city. London's universities form the largest concentration of higher education institutes in Europe. In 2012, London became the first city to have hosted three modern Summer Olympic Games. London has a diverse range of people and cultures, and more than 300 languages are spoken in the region. Its estimated mid-2016 municipal population (corresponding to Greater London) was 8,787,892, the most populous of any city in the European Union and accounting for 13.4% of the UK population. London's urban area is the second most populous in the EU, after Paris, with 9,787,426 inhabitants at the 2011 census. The population within the London commuter belt is the most populous in the EU with 14,040,163 inhabitants in 2016. London was the world's most populous city from c. 1831 to 1925. London contains four World Heritage Sites: the Tower of London; Kew Gardens; the site comprising the Palace of Westminster, Westminster Abbey, and St Margaret's Church; and the historic settlement in Greenwich where the Royal Observatory, Greenwich defines the Prime Meridian, 0° longitude, and Greenwich Mean Time. Other landmarks include Buckingham Palace, the London Eye, Piccadilly Circus, St Paul's Cathedral, Tower Bridge, Trafalgar Square and The Shard. London has numerous museums, galleries, libraries and sporting events. These include the British Museum, National Gallery, Natural History Museum, Tate Modern, British Library and West End theatres. The London Underground is the oldest underground railway network in the world.",
+    "qa": [{
+            "question": "Give the phonological representation of the word London?",
+            "answer": "/ˈlʌndən/",
+            "entity": "TRANSLITERATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "From the 2011 census, London is second in population in the EU to which city?",
+            "answer": "Paris",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Approximately how many languages are spoken in the Greater London area?",
+            "answer": "more than 300/300",
+            "entity": "NUMBER",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What was London's original name, as founded by the Romans?",
+            "answer": "Londinium",
+            "entity": "LOCATION NAME",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "On what river is London situated?",
+            "answer": "River Thames",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "During what time did London have the world's largest population, city-wise?",
+            "answer": "around 1831 to 1925",
+            "entity": "DURATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is the population of metropolitan London?",
+            "answer": "14,040,163",
+            "entity": "NUMBER",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What measurement designates London as the world's most visited city?",
+            "answer": "international arrivals",
+            "entity": "NUMBER",
+            "note": "group A, factoid"
+        }
+    ]
+},
+{
+    "id": 10,
+    "title": "Malaysia",
+    "text": "Malaysia (/məˈleɪziə, -ʒə/ (About this soundlisten) mə-LAY-zee-ə, -⁠zhə; Malay: [məlejsiə])      is a country in Southeast Asia.          The federal constitutional monarchy consists of 13 states and three federal territories, separated by the South China Sea into two similarly sized regions, Peninsular Malaysia and East Malaysia (Malaysian Borneo). Peninsular Malaysia shares a land and maritime border with Thailand in the north and maritime borders          with Singapore in the south, Vietnam in the northeast, and Indonesia in the west. East Malaysia shares land and maritime borders with Brunei and Indonesia and a         maritime border with the Philippines and Vietnam. Kuala Lumpur is the national capital and largest city while Putrajaya is the seat of federal government. With a population of over 30 million, Malaysia is the world's 44th most populous country. The southernmost point of continental Eurasia, Tanjung Piai, is in Malaysia. In the tropics, Malaysia is one of 17 megadiverse countries, with large numbers of endemic species.          Malaysia has its origins in the Malay kingdoms which, from the 18th century, became subject to the British Empire when the Straits Settlements became British protectorates. Peninsular Malaysia was unified as the Malayan Union in 1946.      Malaya was restructured as the Federation of Malaya in 1948, and achieved independence on 31 August 1957. Malaya united with North Borneo, Sarawak, and Singapore on 16 September 1963 to become Malaysia. In 1965, Singapore was expelled from the federation.         The population is concentrated on Peninsular Malaysia, where 20 million out of approximately 30 million Malaysians live.  70 per cent of the population is urban. Kuala Lumpur is the capital and the largest city in Malaysia, as well as its main commercial and financial centre.  Putrajaya, a purpose-built city constructed from 1999, is the seat of government, as many executive and  judicial branches of the federal government were moved there to ease growing congestion within Kuala Lumpur. A member of the Commonwealth of Nations, Malaysia has had one of the best economic records in Asia since its independence from the United Kingdom with its GDP growing at an average of 6.5% per annum for almost 50 years.  The economy shifted from being agriculturally based to one based on manufacturing and industry. Numerous mega-projects  were completed, such as the Petronas Towers, the North–South Expressway, the Multimedia Super Corridor, and the new federal administrative capital of Putrajaya.       The constitution grants freedom of religion and makes Malaysia an officially secular state, while establishing Islam as the \"religion of the Federation\".  According to the Population and Housing Census 2010 figures, ethnicity and religious beliefs correlate highly. Approximately 61.3% of the population practice Islam, 19.8% practice Buddhism, 9.2% Christianity, 6.3% Hinduism and 1.3% practice Confucianism, Taoism and other traditional Chinese religions. 0.7% declared no religion and the remaining 1.4% practised other religions or did not provide any information. Sunni Islam of Shafi'i school of jurisprudence is the dominant branch of Islam in Malaysia, while 18% are nondenominational Muslims.",
+    "qa": [{
+            "question": "Where is Malaysia located?",
+            "answer": "Southeast Asia/Asia",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is the capital of Malaysia?",
+            "answer": "Kuala Lumpur",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "When did Malaysia obtain independence?",
+            "answer": "31 August 1957",
+            "entity": "DATE",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What percentage of Malaysians are Christian?",
+            "answer": "9.2%",
+            "entity": "PERCENTAGE",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "How many Malaysians have no religion?",
+            "answer": "0.7%",
+            "entity": "PERCENTAGE",
+            "note": "group A, factoid"
+        }
+    ]
+},
+{
+    "id": 11,
+    "title": "Venice film festival",
+    "text": "The Venice Film Festival or Venice International Film Festival (Italian: Mostra Internazionale d'Arte Cinematografica della Biennale di Venezia, \"International Exhibition of Cinematographic Art of the Venice Biennale\") is the oldest film festival in the world and one of the \"Big Three\" film festivals, alongside the Cannes Film Festival and Berlin International Film Festival. These three film festivals are internationally acclaimed, and give creators the artistic freedom to express themselves through film.  Founded in Venice, Italy, in August 1932, the festival is part of the Venice Biennale, an exhibition of Italian art founded by the Venice City Council on 19 April 1893. The Venice Biennale, founded in 1893, is situated within the cultural sphere, covering work ranging from art, architecture, dance, music and theatre to cinema (the world-known Venice Film Festival). Today, the Biennale includes a range of separate events including: the International Art Exhibition; the International Festival of Contemporary Music; the International Theatre Festival; the International Architecture Exhibition; the International Festival of Contemporary Dance; the International Kids' Carnival; and the annual Venice Film Festival, which is arguably the best-known of all the events.  The festival in held annually in late August or early September on the island of the Lido in the Venice Lagoon. Screenings take place in the historic Palazzo del Cinema on the Lungomare Marconi. Since its inception the Venice Film Festival has grown into one of the most prestigious film festivals in the world, and it is still one of the most popular and fast-growing.  The 76th Venice International Film Festival is scheduled to be held from 28 August to 7 September 2019. The President of the Venice Biennale represents the festival in front of its financial partner, the public authorities and the media. He is chosen by the Italian Ministry of Cultural Heritage. The current President is Paolo Baratta, appointed in 2008, who has previously held the position between 1998 and 2002.  The Director is responsible for the coordination of the events and is chosen by the President of the Venice Biennale and its delegates. The current Director is Alberto Barbera, appointed in 2012, who has previously held the position between 1999 and 2002. His current term will end in 2020.",
+    "qa": [{
+        "question": "Who is the current president of the festival?",
+        "answer": "Alberto Barbera",
+        "entity": "PERSON",
+        "note": "group A, factoid"
+    }]
+},
+{
+    "id": 12,
+    "title": "Zara privacy policy",
+    "text": " ZARA Privacy Policy  (Effective as of June 25, 2013) ZARA knows that  you care about how  your personal information is used and shared, and we take your privacy  seriously.  Our  Privacy Policy  below  applies  to  your  use  of  the  ZARA.COM  website and  co-branded  versions  of  the website located at URLs that resolve to the domain name ZARA.COM (the “Website” or “Site”). Because we  gather certain types of information about our users, we want you to understand what information we collect about  you, how we collect it, how that information is used, and how you can control our disclosure of it.  By visiting our Site, submitting information, using our services, and/or purchasing any products on our Website, you  acknowledge  that  you  accept  the  practices  and  policies outlined  in  the  then  current  Privacy  Policy  and  our  Terms and Conditions. You should review this Policy every time you use the Website to satisfy yourself that you  are  happy  with  it. References  in  this  Privacy  Policy  to  \"we,\"  \"us\"  and \"ZARA\"  are  to  ITX  USA  LLC  (doing  business as ZARA); and references to \"your\" or \"you\" include anyone who uses our Site and/or services and/or  purchases products from our Site. If you do not agree with this Privacy Policy, please do not use our Site. 1.   INFORMATION COLLECTED  We collect three types of information from you: i) information that you provide to us; ii) information we collect  or  receive  from  others;  and  iii)  information  that is  derived  through  automated  tracking  mechanisms and technology.  We  collect  information  when  you  register  online or  update  your  account,  log-in,  place  an  order,  communicate with  our  customer  service  representatives,  opt-in  to  receive our  e-mails,  shop  online,  request  a  catalog,  participate  in a  sweepstakes,  contest,  promotion  or  survey  or  join  our social  networking  sites.  We  may  also  collect  information from  you  in  our  stores  or  through  our  catalogs  or  other marketing  material.  This  information  may  include,  but  is not  limited  to,  your  contact  information  (for example, your name, e-mail address, billing and shipping addresses and phone number) and your  credit  card  and  debit  card  information.  If you  create  an  online  account,  you  also  have  the  option  of providing your product preferences and demographic information. If you use other functionalities found  on our Site, or if you choose to send an e-mail from our site to a friend, we will also collect your friend's  name  and  e-mail  address.  Your  friend’s information  is  only  used  to  send  the  forwarding  e-mail  and is  not saved in our customer or marketing databases. We may update and supplement personally identifiable information that we have collected directly from  you  with  other  information  that  we obtain  from  third  parties.  In  addition,  we  may  obtain personally  identifiable  information  about  individuals  who  are not  yet  users  of  our  Site.  When  we  associate  information that  we  obtain  from  third  parties  with  personally identifiable  information  that  we  have  collected under this Privacy Policy, we will treat the acquired information in the same way we treat the  information  that  we  collected  ourselves  and, except  as  set  forth  in  this  Privacy  Policy,  the information  will not be shared with third parties. We may collect information through automated tracking mechanisms and technology to make our Site  more interesting and useful to you and for various purposes related to our business. For instance, when  you come to our Site, we may collect information about your computer, including where available your  IP   address,   operating   system   and browser   type.   Such   information   may   be   used   for system  administration  and  to  analyze  the  frequency  with which  visitors  to  our  Site  visit  various  parts  of  our sites; and we may combine such information with personally identifiable information.   We also use \"cookies,\" Web beacons, and other tracking technologies. Cookies are small data files that are  automatically  stored  on  your  computer  when  you  visit our  Website.  Cookies  are  used  to  track  the  pages of the websites you have visited and do not retain any personally identifiable information such as  your name, address or any credit/debit card information. We may use cookies to, among other things,  enable  you  to  use  certain  Website  features, remember  the  items  in  your  shopping  cart,  store  your preferences,  recognize  you  when  you  return  to  our  Website, speed  up  your  searches,  track  your  orders,  and  monitor  and maintain  information  about  your  general  Internet  usage  and use  of  our  Website. Cookies help us to improve our Website and to deliver a better and more customized service.  They  allow  us  to customize  our  Website  according  to  your  individual interests.  You  may  refuse  to  accept  cookies  by  activating the  setting  on  your  browser  which  allows  you  to  refuse the  setting  of  cookies. However, if you select this setting you may be unable to access certain parts of the Website or  unable to use some or all of our services. Unless you have adjusted your browser setting so that it will  refuse cookies, our system will issue cookies when you log  on to our Site. By using our Website, you  consent to our placement of cookies on your computer.  You may occasionally get cookies from our business partners or other third parties. We have no control  over  these  cookies.  We  may  also use  cookies  and  other  analytic  systems  to  gather information  and  prepare  reports  on  website  activity  and  to provide  other  services  related  to  your  website  activity  and use of the Internet.  By using this website you agree to the treatment of information relative to you by  Google in the form and with the aims above indicated.  This  Website  may  use  tracking tags  in  certain  pages  to  measure  and  optimize  marketing campaign  results. It will not store, in any event, personal user information. Web beacons are small strings of code  that  are placed  in  a  website  page  or  in  an  e-mail  message.  They are  sometimes  called  \"clear  GIFs\"  (Graphics  Interchange Format)  or  \"pixel  tags.\"  Web  beacons  are  most  often  used in  conjunction  with  cookies  to  track  activity  on  our Website.  When  you  visit  a  particular  page,  web  beacons notify  us  of  your  visit.  Since  web  beacons  are  used  in combination  with  cookies,  if  you  disable  cookies  the  web beacons will only detect an anonymous Website visit. When used in an e-mail, Web beacons enable us  to know whether you have received the e-mail.   2.   HOW WE USE YOUR INFORMATION  Personal  data  you provide  and/or  we  collect  will  be  kept  by  ZARA  and/or  its affiliated  companies  for,  among other things:   i.  the performance  and  enforcement  of  the  purchase  and  sale contract  over  the  products  you  have purchased, or of any other contract between you and us;   ii.  attending to your requests, and;   iii.  providing  you  with  information  about  ZARA products  or  of  any  other  company  belonging  to  ZARA  and its  affiliates,  sending  commercial  communications  by  e-mail and/or  by  any  other  equivalent  electronic  communication means  (such  as  SMS),  and/or  by  other  means  of communication.    You    can    change    your    preference in    respect    to    receiving    such  communications by logging into the MY ACCOUNT section of this Website and changing your preferences.  You can stop receiving ZARA’S newsletter by accessing the Newsletter section  and choosing to unsubscribe (opt-out). iv.  Should you choose to check the option to store your PAYMENT DATA (i.e. credit / debit card  data),  you  expressly  authorize us  to  process  and  store  the  data  indicated  as  necessary for  activation  and  development.  The Card-Verification-Value-Code  (CVV)  will  only  be  used  to  make able the purchase in progress, and will not be stored or processed subsequently as part  of your PAYMENT DATA.   Giving  us  your consent  to  activate  this  functionality,  allows  your  data  to appear  auto  filled  in  subsequent  purchases  on  this  website, so  you  will  not  need  to  enter  the  data  in  each  new process, and such consent shall be valid and effective for subsequent purchases.  You can change your PAYMENT DATA and revoke your consent for processing and storing  at any time through My Account section – Payment Data.  ZARA stores and transmits your cards data according to the main standards of confidentiality  and security  of  credit  and  debit  cards,  in  compliance  with Payment  Card  Industry  Data  Security Standard (PCI DSS).  When using  this  functionality,  changing  your  password  may  be requested  for  security  reasons.  Remember  that  the  safety  in use  of  the  website  also  depends  on  proper  use  and conservation of certain key/passwords confidential.  We also maintain a record of your purchases made on our Website and combine this with information  you have provided in our retail stores or over the phone in order to serve you better. We may combine information  you  provide  with  demographic  information  and information  that  is  publicly  available.  We  may  also  use information  about  your  product  preferences  and  interests  in order  to  improve  our  site  design and enhance your shopping experience.   To fulfill the purposes above, we disclose the information that you have provided to us to Industria de  Diseño Textil,  S.A.  (Inditex,  S.A.),  holding  company  of  the Inditex  Group  to  which  ITX  USA  LLC  belongs, with registered address at Avenida de la Diputación, Edificio Inditex, 15142 Arteixo, A Coruña  (Spain).  We  may  also  disclose  this information  to  third  party  processors,  fulfillment  centers, financial  institutions or other third party service providers who help with our business operations (such as fraud  investigations, bill  collection,  affiliate  and  rewards  programs)  or  as necessary  to  process  your  purchases.  By  providing information  in  this Website  or  otherwise  to  us,  you expressly  authorize  us  to  disclose and process your information as described.   We  may  permit  certain  trusted  third  parties to  track  usage,  analyze  data  such  as  the  source  address that  a  page  request  is  coming  from,  your  IP  address  or domain  name,  the  date  and  time  of  the  page  request,  the referring  website  (if  any)  and  other  parameters  in  the URL.  This  is  collected  in  order  to  better  understand Website  usage,  and  enhance  the  performance  of  services  to maintain  and  operate  the  Site  and  certain  features  on  the Site.  We  may  use  third  parties  to  host  the  Site,  operate various  features available on the  Site, send  e-mails, analyze data, and  provide search results and links. Also,  we  may  share personally  identifiable  or  other  information  with  our  parent companies,  subsidiaries,  divisions, affiliates, consultants, contractors and sub-contractors.   We may transfer personally identifiable information as an asset in connection with a proposed or actual  merger  or  sale  (including  any  transfers  made  as part  of  an  insolvency  or  bankruptcy  proceeding)  involving all or part of our business or as part of a corporate reorganization, stock sale or other change  in control.  We  use  non-identifying and  aggregate  information  to  better  design  our  website  and for  business  and  administrative purposes. We may also use or share with third parties for any purpose aggregated data  that contains no personally identifiable information.  WE  ARE  NOT LIABLE  OR  RESPONSIBLE  FOR  THE  PERSONALLY  IDENTIFIABLE  OR OTHER  INFORMATION  YOU  CHOOSE  TO  SUBMIT  IN  FORUMS  SUCH  AS A  COMMENT  AREA  OR  ANY  OTHER PUBLICLY ACCESSIBLE AREA OF THE SITE.   ZARA  may  disclose  personally  identifiable  information in  special  cases  where  we  have  reason  to  believe  that disclosing  this  information  is  necessary  to  identify, contact  or  bring  legal  action  against  someone  who  may  be violating  our  Terms  and  Conditions  of  use  or  may  be causing  injury  or  interference with our rights, property, our customers or anyone who could be harmed by such activities.  You should also be aware that  we may  disclose specific information about you if required to do so by  law, governmental request, process or court order or based on our good faith belief that it is necessary  to conform or comply with such law, request or court order or to protect the users of our websites or the  public.   You will  receive  notice  when  your  personally  identifiable information  might  be  provided  to  any  third  party for any reason other than  as set forth in this Privacy  Policy, and  you will have an opportunity to  request that we not share such information.  3.   HOW WE PROTECT YOUR INFORMATION  We  are committed  to  protecting  the  information  we  receive  from you.  Any  personal  information  you  provide to  us is maintained on  secure servers and  our internal systems. We take appropriate security  measures  to  protect  your  information  against unauthorized  access  to  or  unauthorized  alteration,  disclosure or destruction of data. To prevent unauthorized access, maintain data accuracy, and ensure  the correct use of information, we maintain appropriate physical, electronic, and managerial procedures  to safeguard and secure the information and data stored on our system. While no computer system is  completely  secure,  we believe  the  measures  we  have  implemented  reduce  the likelihood  of  security  problems to a level appropriate to the type of data involved.  4.   ACCESSING    AND    UPDATING    YOUR PERSONAL    INFORMATION    AND  PREFERENCES  We  provide mechanisms  for  updating  and  correcting  your  personal information  for  many  of  our  services.  If  you  are  a registered  user,  you  may  access  and  update  your registration  information  and  your preferences to receive e-mail or other communications from us in the account area or by sending an e-mail to  contact.us@zara.com 5.   E-MAIL CHOICE/OPT-OUT  If any  user  who  receives  an  e-mail  from  the  Site  would prefer  not  to  receive  such  communications  in  the future, [he or she] can do so by following the instructions in the e-mails. In addition, at any time you  may access the Newsletter section on the Site and choose to unsubscribe (opt-out) or send an e-mail  to contact.us@zara.com .  We  will  make  commercially  reasonable efforts  to  implement  your  opt-out  requests promptly, but you may still receive communications from us for up to ten business days as we  process your request.  6.   CHILDREN’S PRIVACY   We do not knowingly collect any personal information from children under 13. We do not sell products  for purchase by children and all children's products we sell are for purchase by adults only. If you are  not 18 or older, you are not authorized to use the Site. Parents should be aware that there are parental  control  tools  available  online that  can  be  used  to  prevent  children  from  submitting information  online  without parental permission or from accessing material that is harmful to minors.  7.   DISCLAIMER TO SECURITY  By consenting to the Terms and Conditions of the Site and the Privacy Policy, you acknowledge that no  data  transmission  over  the Internet  is  completely  secure.  Although  we  have  implemented reasonable  technical  and  organizational  measures  according  to our  written  information  security  policy,  we  cannot  guarantee or  warrant  the  security  of  any  information  you  provide  to us  and  you  transmit  such  information to us at your own risk. 8.   YOUR CALIFORNIA PRIVACY RIGHTS  ZARA collects various types of personal information about you both online and offline, as described in  this  Privacy  Policy.  Under  California  law,  customers  of ZARA  who  are  residents  of  California  may  request certain information about our disclosure of personal information during the prior calendar year  to  third  parties  for  their  direct marketing  purposes. ZARA  does  not  disclose  personal information  to  unaffiliated third parties for these purposes. To make such a request, please write to us at the following  address: ITXUSA LLC: 500 5th Avenue, Suite 400, New York, NY 10110. USA Alternatively,  you  may  send  an  e-mail  to  contact.us@zara.com with  the  words  \"California  Privacy  Rights\" in the subject line.   9.   CUSTOMIZED ADVERTISING  Advertisements displayed to you on our websites and elsewhere on the Internet may be customized to your interests and preferences, based  on information learned about you  as you use our websites and  the  Internet  in general. If you do not want to participate in this,  please visit http://www.networkadvertising.org/managing/opt_out.asp  to opt-out.   10. LINKS TO OTHER WEBSITES  To  enhance  your  shopping experience,  our  Website  may  include  links  to  other  sites. Those  websites  will have their own privacy policies that you may wish to review. ZARA has no responsibility for these  linked websites.  11. PRIVACY POLICY UPDATES  We  may  update  our Privacy  Policy  from  time  to  time. Whenever  we  make  a change,  we  will  post  the  updated  Policy  at  this  Site  and we  encourage  you  to  check  our  Policy  periodically.  If  we make  a  material  change  to  our  Privacy  Policy  that  would lessen  your  privacy  rights,  we  will  either  continue  to honor  our  Prior  Policy  for  information  that  we  collected when  it  was  in  force,  or  we  will  ask  for  your  consent to  the  change.  If  you  have  any  questions  or  concerns regarding  our  Privacy  Policy,  please  contact us at: contact.us@zara.com    ",
+    "qa": [{
+            "question": "What is a cookie?",
+            "answer": "Cookies are small data files that  are automatically  stored  on  your  computer  when  you  visit  our Website",
+            "entity": "DEFINITION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is the postal address of the Inditex Group?",
+            "answer": "Avenida de la Diputación, Edificio Inditex, 15142 Arteixo, A Coruña  (Spain)",
+            "entity": "ADDRESS",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is a web beacon?",
+            "answer": "Web beacons are small strings of code  that  are placed  in  a  website  page  or  in  an  e-mail  message.  They are  sometimes  called  \"clear  GIFs\"  (Graphics  Interchange Format)  or  \"pixel  tags.\"",
+            "entity": "DEFINITION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What automatic tracking mechanisms are used by the site?",
+            "answer": "cookies, beacons",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid"
+        }
+    ]
+},
+{
+    "id": 13,
+    "title": "Venice film festival",
+    "text": "The Venice Film Festival or Venice International Film Festival (Italian: Mostra Internazionale d'Arte Cinematografica della Biennale di Venezia, \"International Exhibition of Cinematographic Art of the Venice Biennale\") is the oldest film festival in the world and one of the \"Big Three\" film festivals, alongside the Cannes Film Festival and Berlin International Film Festival. These three film festivals are internationally acclaimed, and give creators the artistic freedom to express themselves through film.  Founded in Venice, Italy, in August 1932, the festival is part of the Venice Biennale, an exhibition of Italian art founded by the Venice City Council on 19 April 1893. The Venice Biennale, founded in 1893, is situated within the cultural sphere, covering work ranging from art, architecture, dance, music and theatre to cinema (the world-known Venice Film Festival). Today, the Biennale includes a range of separate events including: the International Art Exhibition; the International Festival of Contemporary Music; the International Theatre Festival; the International Architecture Exhibition; the International Festival of Contemporary Dance; the International Kids' Carnival; and the annual Venice Film Festival, which is arguably the best-known of all the events.  The festival in held annually in late August or early September on the island of the Lido in the Venice Lagoon. Screenings take place in the historic Palazzo del Cinema on the Lungomare Marconi. Since its inception the Venice Film Festival has grown into one of the most prestigious film festivals in the world, and it is still one of the most popular and fast-growing.  The 76th Venice International Film Festival is scheduled to be held from 28 August to 7 September 2019. The President of the Venice Biennale represents the festival in front of its financial partner, the public authorities and the media. He is chosen by the Italian Ministry of Cultural Heritage. The current President is Paolo Baratta, appointed in 2008, who has previously held the position between 1998 and 2002.  The Director is responsible for the coordination of the events and is chosen by the President of the Venice Biennale and its delegates. The current Director is Alberto Barbera, appointed in 2012, who has previously held the position between 1999 and 2002. His current term will end in 2020.",
+    "qa": [{
+            "question": "Who is the current president of the festival?",
+            "answer": "Alberto Barbera",
+            "entity": "PERSON",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "When did Venice Biennale established?",
+            "answer": "19 April 1893",
+            "entity": "DATE",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "Where does the festival take place?",
+            "answer": "Lido",
+            "entity": "LOCATION",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "What are the three largest film festivals in the world?",
+            "answer": "Berlin, Cannes,Venice",
+            "entity": "UNKNOWN",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "Is Venice film festival the newest major film festival?",
+            "answer": "no",
+            "entity": "CONFIRMATION",
+            "note": "group B, factoid"
+        }
+    ]
+},
+{
+    "id": 14,
+    "title": "Usual suspects",
+    "text": "The Usual Suspects is a 1995 neo-noir mystery film directed and co-produced      by Bryan Singer and written by Christopher McQuarrie.               It stars Stephen Baldwin, Gabriel Byrne, Benicio del Toro, Kevin Pollak, Chazz Palminteri, Pete Postlethwaite,      and Kevin Spacey.  The film was shown out of competition at the 1995 Cannes Film Festival,      and then initially released in a few theaters. It received favorable reviews and was eventually given a wider release.      McQuarrie won an Academy Award for Best Original Screenplay and Spacey won the Academy Award for Best      Supporting Actor for his performance. The Writers Guild of America ranked the film as having the      35th greatest screenplay of all time.              A criminal, Dean Keaton, is lying badly wounded on a ship docked in San Pedro Bay.      He is confronted by a mysterious figure whom he calls \"Keyser\",      who shoots him dead and sets fire to the ship. The next day, the police       recover twenty-seven bodies and only two survivors: Arkosh Kovash,       a Hungarian mobster hospitalized with severe burns, and Roger \"Verbal\" Kint,       a con artist with cerebral palsy. U.S. Customs agent Dave Kujan flies from New York City to interrogate Verbal.       The events that led Keaton, Michael McManus, Fred Fenster, Todd Hockney, and Verbal onto the ship are then       described by Verbal via flashback.  Six weeks earlier in New York, Verbal and the other four criminals       were arrested as suspects in a truck-hijacking,        only to be released thanks to Edie Finneran, Keaton's lawyer and girlfriend. T       hey then decided to pull a heist to get revenge on the NYPD. Led by Keaton, they robbed        a jewel smuggler being escorted by corrupt cops,        netting millions in emeralds and getting over fifty cops arrested.        They then went to California to fence the jewels through a man named Redfoot,        who connects them with another jewel heist. The heist goes badly, and the men learn that the job was        arranged by a lawyer named Kobayashi. They meet Kobayashi, who says he arranged for their arrests in New York and that        his employer, Keyser Söze—a mysterious Turkish crime lord whom each of the men have unwittingly stolen from—has ordered them to raid a ship manned by Argentinian drug dealers and destroy $91 million worth        of cocaine being sold on board. Their reward will be the cash brought for the exchange, and being freed         from Söze's influence.  During Kovash's interrogation, it is learned that there was no cocaine         on the ship and that Söze was seen on board. Verbal then tells Kujan a legend about Söze: that he had murdered         his own family when they were being held hostage by Hungarian mobsters, and then massacred the mobsters and their         families before disappearing, doing business only through underlings who did not know who they were working for.          Söze thus became a fearsome urban myth, \"a spook story that criminals tell their kids at night\".  Concluding his story, Verbal reveals Fenster was killed trying to flee; the men then threatened Kobayashi, only to accept the assignment when he threatened their loved ones. The men attack the ship during the night, killing several Argentinian and Hungarian gangsters before discovering there is no cocaine.          Hockney, a prisoner in one of the cabins, McManus, and then Keaton are killed by an unseen assailant,          who sets fire to the ship as Verbal looks on from a hiding place on the dock.  Kujan deduces that Keaton must be Söze,          as the prisoner killed on the ship was Arturo Marquez, a smuggler who escaped prosecution by claiming           he could identify Söze. Marquez was being represented by Edie Finneran,            who has also been recently murdered. Kujan claims that the Argentinians took Marquez to sell            him to Söze's Hungarian rivals; Keaton then used the assault so that he could kill Marquez            personally and fake his own death. Verbal finally confesses that Keaton had been behind everything,            but refuses to testify in court. Verbal's bail is posted and he is released.  Moments later, Kujan realizes that Verbal had been lying, piecing together details for his story from items posted on a crowded bulletin board in the office, and the \"Kobayashi\" brand on the bottom of the coffee mug Kujan was drinking from.            Meanwhile, Verbal walks outside, gradually losing his limp and flexing            his supposedly disabled hand. As Kujan pursues Verbal, a fax arrives from the hospital where Kovash has finally provided a facial composite of Söze, which looks exactly like Verbal. Kujan misses Verbal by moments as the latter disappears into a car driven by \"Kobayashi\".",
+    "qa": [{
+            "question": "Where does the movie start?",
+            "answer": "San Pedro Bay",
+            "entity": "LOCATION",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "What year did the movie released?",
+            "answer": "1995",
+            "entity": "YEAR",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "Did the movie screened at the 1995 Venice Film Festival?",
+            "answer": "no",
+            "entity": "CONFIRMATION",
+            "note": "group B, confirmation"
+        }
+    ]
+},
+{
+    "id": 15,
+    "title": "Bloody Sunday",
+    "text": "A former British soldier will stand trial for firing on civil rights protesters in Northern Ireland in 1972,      an event that came to be known as Bloody Sunday,               prosecutors said. But 16 other ex-paratroopers and and two former members of the Official IRA (Irish Republican Army)      will face no action. The army veteran, known as Soldier F, has been charged with the murder       of demonstrators James Wray and William McKinney and the attempted murders of  four other men,        the Director of Public Prosecutions for Northern Ireland said Thursday. Bloody Sunday was one of the darkest        episodes in Northern Ireland's Troubles.  On 30 January 1972 troops fired on unarmed protesters in a civil rights        march in Derry, also known as Londonderry, killing 13 people and wounding 15. One injured man died four months later.         The families of the victims have campaigned for decades for the former soldiers to face justice. Relatives were visibly upset following the announcement of the decision. Solicitor Ciaran Shiels, a solicitor for a number of them, said they were \"disappointed that not all of those responsible are to face trial.\" The impact of the killings was an  immediate accelerant for the violence that  would claim 3,500 lives in the 25 years to the Good Friday peace agreement in 1998, McCann said. The victims' families were stunned by the events of the day, not just at the loss of their loved ones but by the army's claims that the people in the crowds fired the first shot. The soldiers maintained they were acting under order, returning fire on what they believed to be hostile armed attackers. A short internal military inquiry shortly after Bloody Sunday, known as the Widgery Report, concluded the soldiers had done nothing wrong. And for many years that was the accepted government narrative. Saville Inquiry Over time, though, the victims' families got organized, campaigned for justice and eventually, more than 25 years after the killings, when a peace deal was signed in Northern Ireland,  the British government committed to a full-scale inquiry.  Headed by Lord Saville, the inquiry lasted 12 years, with 435 days of oral evidence alone. It involved more than 2,000 witnesses, with an estimated 125,000 pages of evidential material considered. It cost a quarter of a billion dollars and its conclusions, announced by British Prime Minister David Cameron in 2010, brought cheers from the people of Derry, in particular the victims' families.",
+    "qa": [{
+            "question": "How many were shot down in Bloody Sunday?",
+            "answer": "14/15",
+            "entity": "NUMBER",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "When was the peace deal signed?",
+            "answer": "1998",
+            "entity": "YEAR",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "When did Bloody Sunday happen?",
+            "answer": "30 January 1972",
+            "entity": "DATE",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "Where did the Bloody Sunday take place?",
+            "answer": "Derry/Londonderry",
+            "entity": "LOCATION",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "What was the death toll in the 25 years of conflict?",
+            "answer": "3500",
+            "entity": "NUMBER",
+            "note": "group B, factoid"
+        }
+    ]
+},
+{
+    "id": 16,
+    "title": "Michael Jordan",
+    "text": "Michael Jeffrey Jordan (born February 17, 1963), also known by his initials, MJ, is an American former professional basketball player. He played 15 seasons in the National Basketball Association (NBA) for the Chicago Bulls and Washington Wizards. His biography on the official NBA website states: \"By acclamation, Michael Jordan is the greatest basketball player of all time.\" Jordan was one of the most effectively marketed athletes of his generation and was considered instrumental in popularizing the NBA around the world in the 1980s and 1990s. He is currently the principal owner and chairman of the NBA's Charlotte Hornets. Jordan played three seasons for coach Dean Smith at the University of North Carolina. As a freshman, he was a member of the Tar Heels' national championship team in 1982. Jordan joined the Bulls in 1984 as the third overall draft pick. He quickly emerged as a league star and entertained crowds with his prolific scoring. His leaping ability, demonstrated by performing slam dunks from the free throw line in Slam Dunk Contests, earned him the nicknames Air Jordan and His Airness. He also gained a reputation for being one of the best defensive players in basketball. In 1991, he won his first NBA championship with the Bulls, and followed that achievement with titles in 1992 and 1993, securing a \"three-peat\". Although Jordan abruptly retired from basketball before the beginning of the 1993–94 NBA season, and started a new career in Minor League Baseball, he returned to the Bulls in March 1995 and led them to three additional championships in 1996, 1997, and 1998, as well as a then-record 72 regular-season wins in the 1995–96 NBA season. Jordan retired for a second time in January 1999, but returned for two more NBA seasons from 2001 to 2003 as a member of the Wizards.\",      Jordan married Juanita Vanoy in September 1989, and they had two sons, Jeffrey Michael and Marcus James, and a daughter, Jasmine Mickael. Jordan and Vanoy filed for divorce on January 4, 2002, citing irreconcilable differences, but reconciled shortly thereafter. They again filed for divorce and were granted a final decree of dissolution of marriage on December 29, 2006, commenting that the decision was made \"mutually and amicably\". It is reported that Juanita received a $168 million settlement (equivalent to $209 million in 2018), making it the largest celebrity divorce settlement on public record at the time.  In 1991, Jordan purchased a lot in Highland Park, Illinois, to build a 56,000 square-foot (5,200 m2) mansion, which was completed four years later. Jordan listed his Highland Park mansion for sale in 2012. His two sons attended Loyola Academy, a private Roman Catholic high school located in Wilmette, Illinois. Jeffrey graduated as a member of the 2007 graduating class and played his first collegiate basketball game on November 11, 2007, for the University of Illinois. After two seasons, Jeffrey left the Illinois basketball team in 2009. He later rejoined the team for a third season, then received a release to transfer to the University of Central Florida, where Marcus was attending. Marcus transferred to Whitney Young High School after his sophomore year at Loyola Academy and graduated in 2009. He began attending UCF in the fall of 2009, and played three seasons of basketball for the school. Jordan's nephew through his brother Larry, Justin Jordan, played Division I basketball at UNC Greensboro.  On July 21, 2006, a judge in Cook County, Illinois, determined that Jordan did not owe his alleged former lover Karla Knafel $5 million in a breach of contract claim. Jordan had allegedly paid Knafel $250,000 to keep their relationship a secret. Knafel claimed Jordan promised her $5 million for remaining silent and agreeing not to file a paternity suit after Knafel learned she was pregnant in 1991.  A DNA test showed Jordan was not the father of the child.  He proposed to his longtime girlfriend, Cuban-American model Yvette Prieto, on Christmas 2011, and they were married on April 27, 2013, at Bethesda-by-the-Sea Episcopal Church. It was announced on November 30, 2013, that the two were expecting their first child together. On February 11, 2014, Prieto gave birth to identical twin daughters named Victoria and Ysabel.",
+    "qa": [{
+            "question": "List  Michael Jordan's wives?",
+            "answer": "Juanita Vanoy, Yvette Prieto",
+            "entity": "LIST",
+            "note": "group B, list"
+        },
+        {
+            "question": "With which women Michael Jordan has tied the knot?",
+            "answer": "Juanita Vanoy, Yvette Prieto",
+            "entity": "LIST",
+            "note": "group B, list"
+        }
+    ]
+},
+{
+    "id": 17,
+    "title": "Computer Science Department University of Crete",
+    "text": "The Computer Science Department of the University of Crete operates since 1984, historically the second Computer Science Department to operate in Greece. The Computer Science Department belongs to the School of Sciences and Engineering, which operates in Heraklion. The School was founded as School of Physical & Mathematical Sciences in 1973 and renamed as the School of Science in 1984. The Department of Computer Sciences was established in 1983. In FEK 388 / 5.7.83 was conversion and distribution of vacancies at the University of Crete and was first given to the Department of Computer Science 13 faculty positions.  The graduate program of the Department began operating in 1985 as \"Master Program in Computer Science\". In 1992 all postgraduate studies in Greece were organized under N2083 / 1992 (FEK159 / A / 21.09.1992) Chapter V \"Graduate Studies\" which replaced Article 81 of Law 1566/1985 and was based on Postgraduate Studies Regulation of the Department, on the proposal of the Department to the Ministry of Education for the modernization of postgraduate studies in Greece. From February 1994 works with the Senate and after approval of the program by the Ministry of Education (FEK 866 / 11.26.93). In 2003 (FEK1694 / vol.B '/ 11.19.2003) renewed operation of the Postgraduate Studies Program and the academic year 2014-2015 operates on the revised Postgraduate Studies Program (PSP) entitled \"Science and Computer Engineering\".  The Department gradually staffed by excellent scientists. The Computer Science Department elected the first faculty in 1981 and became operational in 1984 so accepted and the first undergraduates. In February 1985 the postgraduate program was established. Today the department has twenty-one (21) Professors and regularly hosts academic scholars as visiting faculty professors.  At thirty-five (35) years of operation has developed and implemented a modern curriculum. Today, a significant contribution to higher education in our country in science and computer technology issues are recognized by educational work at the undergraduate and graduate level, with quality acclaimed internationally.  The Department even since its establishment, had a strong research orientation. Since the inception of the Department works closely with the Institute of Computer Science (ICS) of the Foundation for Research and Technology Hellas (FORTH). This cooperation, which continues today, creates an excellent environment for research and education. The research of the Department now enjoys international recognition. Members of the Department throughout the history of the Department and even more today, hold important international collaborations with leading academic and research institutions and also with industry in areas of crucial interest.  The Department is recognized today as one of the top departments in computer science in the country.  Based on a recent study of the work of the Departments of Computer Engineering and Computer Science of  the country based on bibliographical indices, the Department of Computer Science was ranked first among all departments.",
+    "qa": [{
+            "question": "When was the postgraduate program established?",
+            "answer": "February 1985/1985",
+            "entity": "DATE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "When was the postgraduate program beginned?",
+            "answer": "February 1985/1985",
+            "entity": "DATE",
+            "note": "group B, factoid, synonym"
+        },
+        {
+            "question": "With which organization CSD closely work?",
+            "answer": "Foundation for Research and Technology Hellas (FORTH)",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "With which organization CSD cooperate?",
+            "answer": "Foundation for Research and Technology Hellas (FORTH)",
+            "entity": "ORGANIZATION",
+            "note": "group B, factoid, POS"
+        },
+        {
+            "question": "What ministry is responsible for the department?",
+            "answer": "Ministry of Education",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What ministry is responsible for the department?",
+            "answer": "Ministry of Education",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What is the number of professors in the department?",
+            "answer": "21",
+            "entity": "NUMBER",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Where the department is located?",
+            "answer": "Heraklion",
+            "entity": "LOCATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "When was the Department created?",
+            "answer": "1984",
+            "entity": "YEAR",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "How many years does the Department operate?",
+            "answer": "35",
+            "entity": "NUMBER",
+            "note": "group A, factoid, verbatim?"
+        }
+    ]
+},
+{
+    "id": 18,
+    "title": "Gone with the wind",
+    "text": "Gone with the Wind is a 1939 American epic historical romance film, adapted from Margaret Mitchell's 1936 novel of the same name. The film was produced by David O. Selznick of Selznick International Pictures and directed by Victor Fleming. Set in the American South against the backdrop of the American Civil War and the Reconstruction era, the film tells the story of Scarlett O'Hara, the strong-willed daughter of a      Georgia plantation owner. It follows her romantic pursuit of Ashley Wilkes, who is married to his cousin, Melanie Hamilton, and her subsequent marriage to Rhett Butler. The leading roles are played by Vivien Leigh (Scarlett), Clark Gable (Rhett), Leslie Howard (Ashley), and Olivia de Havilland (Melanie).       Running time: 221 minutes 234–238 minutes (with overture, intermission, entr'acte, and exit music)      Budget: $3.85 million",
+    "qa": [{
+            "question": "Who played Scarlett O'Hara?",
+            "answer": "Vivien Leigh",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Who directed Gone with the Wind?",
+            "answer": "Victor Fleming",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Where is the story set?",
+            "answer": "American South",
+            "entity": "LOCATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What are the genres of the movie?",
+            "answer": "epic,historical,romance",
+            "entity": "GENRE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "When did the novel published?",
+            "answer": "1936",
+            "entity": "YEAR",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What is the name of the role played by Clark Gable?",
+            "answer": "Rhett",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What was the budget of the film?",
+            "answer": "$3.85 million",
+            "entity": "MONEY",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "In what historical periods the movie is set?",
+            "answer": "Americal Civil War, Reconstruction Era",
+            "entity": "HISTORICAL PERIOD",
+            "note": "group B, factoid, named entities"
+        }
+    ]
+},
+{
+    "id": 19,
+    "title": "Wolfgang Amadeus Mozart",
+    "text": "Wolfgang Amadeus Mozart was born on 27 January 1756 to Leopold Mozart (1719–1787)  and Anna Maria, née Pertl (1720–1778), at 9 Getreidegasse in Salzburg. Mozart   (27 January 1756 – 5 December 1791),  was a prolific and influential composer of the classical era.  He composed more than 600 works. Ηis influence is profound on subsequent Western art music.  Ludwig van Beethoven composed his own early works in the shadow of Mozart, and Joseph Haydn wrote: \"posterity will  not see such a talent again in 100 years\"",
+    "qa": [{
+            "question": "Where was Mozart's birthplace?",
+            "answer": "Salzburg",
+            "entity": "LOCATION",
+            "note": "group B, factoid,morphology"
+        },
+        {
+            "question": "What was the first name of Mozart's father",
+            "answer": "Leopold",
+            "entity": "NAME",
+            "note": "group A, factoid, ner, gazetteer"
+        },
+        {
+            "question": "What was Mozart's profession?",
+            "answer": "composer",
+            "entity": "PROFESSION",
+            "note": "group A, factoid,ner or gazetteer"
+        },
+        {
+            "question": "What was the address of Mozart's birthplace?",
+            "answer": "9 Getreidegasse Salzburg/9 Getreidegasse",
+            "entity": "ADDRESS",
+            "note": "group A, confirmation, verbatim"
+        }
+    ]
+},
+{
+    "id": 20,
+    "title": "Veneziano Boutique Hotel",
+    "text": "Veneziano Boutique Hotel is in a historic landmark building, in one of the most elegant architectural buildings of the city of Heraklion, has a beautiful interior courtyard and includes all the modern luxuries. The Architecture elements of Venetian and Ottoman era of this famous building have been restored and renovated with respect by the owners in collaboration with the local archaeological department. Over the years, the nations and the cultures that passed from Crete are reflected in the most vivid way through buildings that have survived to our days. One of those buildings – with the most elegant architectural elements in Heraklion, is the two-storey house located in the historic city center on the corner of the streets Nikou Kazantzakis & 1770 which is transformed in to a beautiful Boutique Hotel. The history of the building begins the period of the Venetian occupation around 1510 and completed by adding one floor during the period of Ottoman occupation in 1730,      in order to house senior officers. The main building was the residence of the first Aga of Heraklion      and the building in the courtyard was his stable. In the courtyard there was a tower and from that      point they could protect the Aga. In the basement were the baths of the house. The groundfloor      is said to be the room where the stableman lived.      The first floor was the Aga’s space where was his room and the room that accommodated his wives.      The building is classified as historical monument and a work of art by the Ministry of Culture and the Ministry      of Public Works. The Venetian and Ottoman elements of this charming building have been restored carefully,      honoring the heritage of the building in collaboration with the local archaeological service.       The building is a typical example of Venetian and Ottoman architecture and is set with a wooden roof.       The use of wood characterizes the architecture and the morphological composition. The windows have a wooden       frame and thin molding, while wooden jambs protrude slightly at the corners of the enclosed balconies.       At the end of the structure there is a complex and wide wooden molding. The building is organized in       two wings that form the letter Γ of the Greek alphabet with each other and define a large internal courtyard.       Here was a meeting place for nobles and lords who were discussing various issues as economical, commercial, political that concerned the city, or they passed their free time. It was something like a combination of a       chamber and a club. For this reason the building had five hidden exits in case of an emergency.       After the renovation the building accommodates 4 superior double rooms and 2 double floor family apartments.       On the ground floor that is connected with the courtyard there is the Café & Wine bar that will offer Cretan diet breakfast.       On the basement operates the Spa Center where the Ottoman culture re-experience which already exists 1 N. Kazantzaki & 1770 Heraklion Crete P.C. 71202 GREECE Tel: 0030 2810344758 | Fax: 0030 2810334752 E-mail: info@veneziano.gr ",
+    "qa": [{
+            "question": "What is resides below the ground floor of the building?",
+            "answer": "Spa Center",
+            "entity": "UNKNOWN",
+            "note": "group B, factoid, synonym, gloss"
+        },
+        {
+            "question": "How many ways out the building have?",
+            "answer": "five",
+            "entity": "NUMBER",
+            "note": "group B, factoid, synonym, gloss"
+        },
+        {
+            "question": "In which floor the groom lived?",
+            "answer": "groundfloor",
+            "entity": "NUMBER",
+            "note": "group B, factoid, synonym, gloss"
+        },
+        {
+            "question": "Who was the first dweller of the building?",
+            "answer": "the first Aga of Heraklion",
+            "entity": "PERSON",
+            "note": "group B, factoid, word embedding, synonym or other"
+        },
+        {
+            "question": "When the construction of the building is completed?",
+            "answer": "1730",
+            "entity": "DATE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What material dominates the whole building?",
+            "answer": "wood",
+            "entity": "MATERIAL",
+            "note": "group A, factoid, gazetteer"
+        },
+        {
+            "question": "Who was the first resident of the building?",
+            "answer": "the first Aga of Heraklion",
+            "entity": "PERSON",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "What architectural styles characterize this building?",
+            "answer": "Venetian and Ottoman",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid, stemming"
+        }
+    ]
+},
+{
+    "id": 21,
+    "title": "Malaysia",
+    "text": "Malaysia (/məˈleɪziə, -ʒə/ (About this soundlisten) mə-LAY-zee-ə, -⁠zhə; Malay: [məlejsiə])      is a country in Southeast Asia.          The federal constitutional monarchy consists of 13 states and three federal territories, separated by the South China Sea into two similarly sized regions, Peninsular Malaysia and East Malaysia (Malaysian Borneo). Peninsular Malaysia shares a land and maritime border with Thailand in the north and maritime borders          with Singapore in the south, Vietnam in the northeast, and Indonesia in the west. East Malaysia shares land and maritime borders with Brunei and Indonesia and a         maritime border with the Philippines and Vietnam. Kuala Lumpur is the national capital and largest city while Putrajaya is the seat of federal government. With a population of over 30 million, Malaysia is the world's 44th most populous country. The southernmost point of continental Eurasia, Tanjung Piai, is in Malaysia. In the tropics, Malaysia is one of 17 megadiverse countries, with large numbers of endemic species.          Malaysia has its origins in the Malay kingdoms which, from the 18th century, became subject to the British Empire when the Straits Settlements became British protectorates. Peninsular Malaysia was unified as the Malayan Union in 1946.      Malaya was restructured as the Federation of Malaya in 1948, and achieved independence on 31 August 1957. Malaya united with North Borneo, Sarawak, and Singapore on 16 September 1963 to become Malaysia. In 1965, Singapore was expelled from the federation.         The population is concentrated on Peninsular Malaysia, where 20 million out of approximately 30 million Malaysians live.  70 per cent of the population is urban. Kuala Lumpur is the capital and the largest city in Malaysia, as well as its main commercial and financial centre.  Putrajaya, a purpose-built city constructed from 1999, is the seat of government, as many executive and  judicial branches of the federal government were moved there to ease growing congestion within Kuala Lumpur. A member of the Commonwealth of Nations, Malaysia has had one of the best economic records in Asia since its independence from the United Kingdom with its GDP growing at an average of 6.5% per annum for almost 50 years.  The economy shifted from being agriculturally based to one based on manufacturing and industry. Numerous mega-projects  were completed, such as the Petronas Towers, the North–South Expressway, the Multimedia Super Corridor, and the new federal administrative capital of Putrajaya.       The constitution grants freedom of religion and makes Malaysia an officially secular state, while establishing Islam as the \"religion of the Federation\".  According to the Population and Housing Census 2010 figures, ethnicity and religious beliefs correlate highly. Approximately 61.3% of the population practice Islam, 19.8% practice Buddhism, 9.2% Christianity, 6.3% Hinduism and 1.3% practice Confucianism, Taoism and other traditional Chinese religions. 0.7% declared no religion and the remaining 1.4% practised other religions or did not provide any information. Sunni Islam of Shafi'i school of jurisprudence is the dominant branch of Islam in Malaysia, while 18% are nondenominational Muslims.",
+    "qa": [{
+            "question": "Where is Malaysia located?",
+            "answer": "Southeast Asia/Asia",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is the capital of Malaysia?",
+            "answer": "Kuala Lumpur",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is the population of Malaysia?",
+            "answer": "30 million",
+            "entity": "POPULATION",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "When did Malaysia obtain independence?",
+            "answer": "31 August 1957",
+            "entity": "DATE",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "When did Malaysia attain autonomy?",
+            "answer": "31 August 1957",
+            "entity": "DATE",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "What percentage of Malaysians are Christian?",
+            "answer": "9.2%",
+            "entity": "PERCENTAGE",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "How many Malaysians have no religion?",
+            "answer": "0.7%",
+            "entity": "PERCENTAGE",
+            "note": "group A, factoid"
+        }
+    ]
+},
+{
+    "id": 22,
+    "title": "Antibiotics",
+    "text": "An antibiotic is a type of antimicrobial substance active against      bacteria and is the most important type of antibacterial agent for fighting bacterial infections. Antibiotic medications are widely used in the treatment and prevention of such infections. They may either kill or      inhibit the growth of bacteria.      A limited number of antibiotics also possess antiprotozoal activity.      Antibiotics are not effective against viruses such as the common cold or influenza; drugs which inhibit viruses      are termed antiviral drugs or antivirals rather than antibiotics. Sometimes, the term antibiotic which means opposing life,      based on Greek roots, (ἀντι-) anti: against and (βίος-) biotic: life, is broadly used to refer to any substance       used against microbes, but in the usual medical usage, antibiotics (such as penicillin) are those produced naturally       (by one microorganism fighting another), whereas nonantibiotic antibacterials (such as sulfonamides and antiseptics) are fully synthetic. However, both classes have the same goal of      killing or preventing the growth of microorganisms, and both are included in antimicrobial chemotherapy.      Antibacterials include antiseptic drugs, antibacterial soaps, and chemical disinfectants,      whereas antibiotics are an important class of antibacterials used more specifically in medicine      and sometimes in livestock feed. Antibiotics revolutionized medicine in the 20th century.  However, their effectiveness and easy access have also led to their overuse, and some bacteria have developed resistance. This has led to widespread problems, and the World Health Organization      have classified antimicrobial resistance as a serious threat [that] is no longer a prediction for the future, it is happening right now in every region of the world and has the potential to affect anyone, of any age,      in any country.",
+    "qa": [{
+            "question": "In what century did antibiotics revolutionized medicine?",
+            "answer": "20th century",
+            "entity": "TIME",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "When were antibiotics created?",
+            "answer": "20th century",
+            "entity": "TIME",
+            "note": "group B, factoid, synonym"
+        },
+        {
+            "question": "What organization called antimicrobial resistance a 'serious threat?'",
+            "answer": "World Health Organization",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "Antibiotics can treat viruses such as the common cold and influenza?",
+            "answer": "No",
+            "entity": "CONFIRMATION",
+            "note": "group B, factoid, similarity"
+        },
+        {
+            "question": "Antibiotics are used both from animals and humans?",
+            "answer": "Yes",
+            "entity": "CONFIRMATION",
+            "note": "group B, factoid, similarity"
+        }
+    ]
+},
+{
+    "id": 23,
+    "title": "Usual suspects",
+    "text": "The Usual Suspects is a 1995 neo-noir mystery film directed and co-produced      by Bryan Singer and written by Christopher McQuarrie.               It stars Stephen Baldwin, Gabriel Byrne, Benicio del Toro, Kevin Pollak, Chazz Palminteri, Pete Postlethwaite,      and Kevin Spacey.  The film was shown out of competition at the 1995 Cannes Film Festival,      and then initially released in a few theaters. It received favorable reviews and was eventually given a wider release.      McQuarrie won an Academy Award for Best Original Screenplay and Spacey won the Academy Award for Best      Supporting Actor for his performance. The Writers Guild of America ranked the film as having the      35th greatest screenplay of all time.              A criminal, Dean Keaton, is lying badly wounded on a ship docked in San Pedro Bay.      He is confronted by a mysterious figure whom he calls \"Keyser\",      who shoots him dead and sets fire to the ship. The next day, the police       recover twenty-seven bodies and only two survivors: Arkosh Kovash,       a Hungarian mobster hospitalized with severe burns, and Roger \"Verbal\" Kint,       a con artist with cerebral palsy. U.S. Customs agent Dave Kujan flies from New York City to interrogate Verbal.       The events that led Keaton, Michael McManus, Fred Fenster, Todd Hockney, and Verbal onto the ship are then       described by Verbal via flashback.  Six weeks earlier in New York, Verbal and the other four criminals       were arrested as suspects in a truck-hijacking,        only to be released thanks to Edie Finneran, Keaton's lawyer and girlfriend. T       hey then decided to pull a heist to get revenge on the NYPD. Led by Keaton, they robbed        a jewel smuggler being escorted by corrupt cops,        netting millions in emeralds and getting over fifty cops arrested.        They then went to California to fence the jewels through a man named Redfoot,        who connects them with another jewel heist. The heist goes badly, and the men learn that the job was        arranged by a lawyer named Kobayashi. They meet Kobayashi, who says he arranged for their arrests in New York and that        his employer, Keyser Söze—a mysterious Turkish crime lord whom each of the men have unwittingly stolen from—has ordered them to raid a ship manned by Argentinian drug dealers and destroy $91 million worth        of cocaine being sold on board. Their reward will be the cash brought for the exchange, and being freed         from Söze's influence.  During Kovash's interrogation, it is learned that there was no cocaine         on the ship and that Söze was seen on board. Verbal then tells Kujan a legend about Söze: that he had murdered         his own family when they were being held hostage by Hungarian mobsters, and then massacred the mobsters and their         families before disappearing, doing business only through underlings who did not know who they were working for.          Söze thus became a fearsome urban myth, \"a spook story that criminals tell their kids at night\".  Concluding his story, Verbal reveals Fenster was killed trying to flee; the men then threatened Kobayashi, only to accept the assignment when he threatened their loved ones. The men attack the ship during the night, killing several Argentinian and Hungarian gangsters before discovering there is no cocaine.          Hockney, a prisoner in one of the cabins, McManus, and then Keaton are killed by an unseen assailant,          who sets fire to the ship as Verbal looks on from a hiding place on the dock.  Kujan deduces that Keaton must be Söze,          as the prisoner killed on the ship was Arturo Marquez, a smuggler who escaped prosecution by claiming           he could identify Söze. Marquez was being represented by Edie Finneran,            who has also been recently murdered. Kujan claims that the Argentinians took Marquez to sell            him to Söze's Hungarian rivals; Keaton then used the assault so that he could kill Marquez            personally and fake his own death. Verbal finally confesses that Keaton had been behind everything,            but refuses to testify in court. Verbal's bail is posted and he is released.  Moments later, Kujan realizes that Verbal had been lying, piecing together details for his story from items posted on a crowded bulletin board in the office, and the \"Kobayashi\" brand on the bottom of the coffee mug Kujan was drinking from.            Meanwhile, Verbal walks outside, gradually losing his limp and flexing            his supposedly disabled hand. As Kujan pursues Verbal, a fax arrives from the hospital where Kovash has finally provided a facial composite of Söze, which looks exactly like Verbal. Kujan misses Verbal by moments as the latter disappears into a car driven by \"Kobayashi\".",
+    "qa": [{
+            "question": "Where does the movie start?",
+            "answer": "San Pedro Bay",
+            "entity": "LOCATION",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "What year did the movie released?",
+            "answer": "1995",
+            "entity": "YEAR",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "Did the movie screened at the 1995 Venice Film Festival?",
+            "answer": "no",
+            "entity": "CONFIRMATION",
+            "note": "group B, confirmation"
+        }
+    ]
+},
+{
+    "id": 24,
+    "title": "Santiago de Compostela",
+    "text": "Santiago de Compostela is the capital of the autonomous community of Galicia, in northwestern Spain. The city has its origin in the shrine of Saint James the Great, now the Cathedral of Santiago de Compostela, as the destination of the Way of St. James, a leading Catholic pilgrimage route since the 9th century. In 1985, the city's Old Town was designated a UNESCO World Heritage Site. The population of the city in 2012 was 95,671 inhabitants, while the metropolitan area reaches 178,695. In 2010 there were 4,111 foreigners living in the city, representing 4.3% of the total population. The main nationalities are Brazilians (11%), Portuguese (8%) and Colombians (7%).  By language, according to 2008 data, 21.17% of the population always speak in Galician, 15% always speak in Spanish, 31% mostly in Galician and the 32.17% mostly in Spanish. According to a Xunta de Galicia 2010 study the 38% of the city primary and secondary education students had Galician as their mother tongue.",
+    "qa": [{
+            "question": "How many people live in the city?",
+            "answer": "95,671",
+            "entity": "NUMBER",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "What is the number of non-native Galician residents in Santiago de Compostela?",
+            "answer": "4,111",
+            "entity": "NUMBER",
+            "note": "group B, factoid"
+        }
+    ]
+},
+{
+    "id": 25,
+    "title": "Wolfgang Amadeus Mozart",
+    "text": "Wolfgang Amadeus Mozart was born on 27 January 1756 to Leopold Mozart (1719–1787)  and Anna Maria, née Pertl (1720–1778), at 9 Getreidegasse in Salzburg. Mozart   (27 January 1756 – 5 December 1791),  was a prolific and influential composer of the classical era. He composed more than 600 works. Ηis influence is profound on subsequent Western art music. Ludwig van Beethoven composed his own early works in the shadow of Mozart, and Joseph Haydn wrote: \"posterity will  not see such a talent again in 100 years\"",
+    "qa": [{
+            "question": "Where was Mozart's birthplace?",
+            "answer": "Salzburg",
+            "entity": "LOCATION",
+            "note": "group B, factoid,morphology"
+        },
+        {
+            "question": "What was the first name of Mozart's father",
+            "answer": "Leopold",
+            "entity": "NAME",
+            "note": "group A, factoid, ner, gazetteer"
+        },
+        {
+            "question": "What was Mozart's profession?",
+            "answer": "composer",
+            "entity": "PROFESSION",
+            "note": "group A, factoid,ner or gazetteer"
+        },
+        {
+            "question": "What was the address of Mozart's birthplace?",
+            "answer": "9 Getreidegasse Salzburg/9 Getreidegasse",
+            "entity": "ADDRESS",
+            "note": "group A, confirmation, verbatim"
+        },
+        {
+            "question": "What age did Mozart die?",
+            "answer": "35",
+            "entity": "NUMBER",
+            "note": "group C, factoid, calculation"
+        },
+        {
+            "question": "List some composers of the classical era?",
+            "answer": "Beethoven, Bach, Haydn",
+            "entity": "NUMBER",
+            "note": "group C, list, word embeddings, validation, other"
+        }
+    ]
+},
+{
+    "id": 26,
+    "title": "Veneziano Boutique Hotel",
+    "text": "Veneziano Boutique Hotel is in a historic landmark building, in one of the most elegant architectural buildings of the city of Heraklion, has a beautiful interior courtyard and includes all the modern luxuries. The Architecture elements of Venetian and Ottoman era of this famous building have been restored and renovated with respect by the owners in collaboration with the local archaeological department. Over the years, the nations and the cultures that passed from Crete are reflected in the most vivid way through buildings that have survived to our days. One of those buildings – with the most elegant architectural elements in Heraklion, is the two-storey house located in the historic city center on the corner of the streets Nikou Kazantzakis & 1770 which is transformed in to a beautiful Boutique Hotel. The history of the building begins the period of the Venetian occupation around 1510 and completed by adding one floor during the period of Ottoman occupation in 1730,      in order to house senior officers. The main building was the residence of the first Aga of Heraklion      and the building in the courtyard was his stable. In the courtyard there was a tower and from that      point they could protect the Aga. In the basement were the baths of the house. The groundfloor      is said to be the room where the stableman lived.      The first floor was the Aga’s space where was his room and the room that accommodated his wives.      The building is classified as historical monument and a work of art by the Ministry of Culture and the Ministry      of Public Works. The Venetian and Ottoman elements of this charming building have been restored carefully,      honoring the heritage of the building in collaboration with the local archaeological service.       The building is a typical example of Venetian and Ottoman architecture and is set with a wooden roof.       The use of wood characterizes the architecture and the morphological composition. The windows have a wooden       frame and thin molding, while wooden jambs protrude slightly at the corners of the enclosed balconies.       At the end of the structure there is a complex and wide wooden molding. The building is organized in       two wings that form the letter Γ of the Greek alphabet with each other and define a large internal courtyard.       Here was a meeting place for nobles and lords who were discussing various issues as economical, commercial, political that concerned the city, or they passed their free time. It was something like a combination of a       chamber and a club. For this reason the building had five hidden exits in case of an emergency.       After the renovation the building accommodates 4 superior double rooms and 2 double floor family apartments.       On the ground floor that is connected with the courtyard there is the Café & Wine bar that will offer Cretan diet breakfast.       On the basement operates the Spa Center where the Ottoman culture re-experience which already exists 1 N. Kazantzaki & 1770 Heraklion Crete P.C. 71202 GREECE Tel: 0030 2810344758 | Fax: 0030 2810334752 E-mail: info@veneziano.gr ",
+    "qa": [{
+            "question": "What is resides below the ground floor of the building?",
+            "answer": "Spa Center",
+            "entity": "UNKNOWN",
+            "note": "group B, factoid, synonym, gloss"
+        },
+        {
+            "question": "How many ways out the building have?",
+            "answer": "five",
+            "entity": "NUMBER",
+            "note": "group B, factoid, synonym, gloss"
+        },
+        {
+            "question": "In which floor the groom lived?",
+            "answer": "groundfloor",
+            "entity": "NUMBER",
+            "note": "group B, factoid, synonym, gloss"
+        },
+        {
+            "question": "Who was the first dweller of the building?",
+            "answer": "the first Aga of Heraklion",
+            "entity": "PERSON",
+            "note": "group B, factoid, word embedding, synonym or other"
+        },
+        {
+            "question": "When the construction of the building is completed?",
+            "answer": "1730",
+            "entity": "DATE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "How many floors has the building?",
+            "answer": "two",
+            "entity": "NUMBER",
+            "note": "group C, factoid, inference"
+        },
+        {
+            "question": "What material dominates the whole building?",
+            "answer": "wood",
+            "entity": "MATERIAL",
+            "note": "group A, factoid, gazetteer"
+        },
+        {
+            "question": "Who was the first resident of the building?",
+            "answer": "the first Aga of Heraklion",
+            "entity": "PERSON",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "What architectural styles characterize this building?",
+            "answer": "Venetian and Ottoman",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "How many rooms has the building?",
+            "answer": "6",
+            "entity": "NUMBER",
+            "note": "group C, factoid, calculation"
+        },
+        {
+            "question": "How far is Knossos from the hotel?",
+            "answer": "about 9.68 KM",
+            "entity": "DISTANCE",
+            "note": "group C, spatial, calculation, find coordinates of two objects"
+        },
+        {
+            "question": "What populated places are within 45km from Heraklion?",
+            "answer": "Knossos,Gazi,",
+            "entity": "LOCATION",
+            "note": "group C, spatial, calculation, find coordinates of two objects, list, Geonames, DBPedia"
+        },
+        {
+            "question": "Give me the official web page of the Veneziano Hotel.",
+            "answer": "https://veneziano.gr",
+            "entity": "URL",
+            "note": "group C, factoid, WSD"
+        }
+
+
+    ]
+},
+{
+    "id": 27,
+    "title": "Antibiotics",
+    "text": "An antibiotic is a type of antimicrobial substance active against      bacteria and is the most important type of antibacterial agent for fighting bacterial infections. Antibiotic medications are widely used in the treatment and prevention of such infections. They may either kill or      inhibit the growth of bacteria.      A limited number of antibiotics also possess antiprotozoal activity.      Antibiotics are not effective against viruses such as the common cold or influenza; drugs which inhibit viruses      are termed antiviral drugs or antivirals rather than antibiotics. Sometimes, the term antibiotic which means opposing life,      based on Greek roots, (ἀντι-) anti: against and (βίος-) biotic: life, is broadly used to refer to any substance       used against microbes, but in the usual medical usage, antibiotics (such as penicillin) are those produced naturally       (by one microorganism fighting another), whereas nonantibiotic antibacterials (such as sulfonamides and antiseptics) are fully synthetic. However, both classes have the same goal of      killing or preventing the growth of microorganisms, and both are included in antimicrobial chemotherapy.      Antibacterials include antiseptic drugs, antibacterial soaps, and chemical disinfectants,      whereas antibiotics are an important class of antibacterials used more specifically in medicine      and sometimes in livestock feed. Antibiotics revolutionized medicine in the 20th century.      However, their effectiveness and easy access have also led to their overuse, and some bacteria have developed resistance.      This has led to widespread problems, and the World Health Organization      have classified antimicrobial resistance as a serious threat [that] is no longer a prediction for the future,      it is happening right now in every region of the world and has the potential to affect anyone, of any age,      in any country.",
+    "qa": [{
+            "question": "In what century did antibiotics revolutionized medicine?",
+            "answer": "20th century",
+            "entity": "TIME",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "When were antibiotics created?",
+            "answer": "20th century",
+            "entity": "TIME",
+            "note": "group B, factoid, synonym"
+        },
+        {
+            "question": "What organization called antimicrobial resistance a 'serious threat?'",
+            "answer": "World Health Organization",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid, stemming"
+        },
+        {
+            "question": "Antibiotics can treat viruses such as the common cold and influenza?",
+            "answer": "No",
+            "entity": "CONFIRMATION",
+            "note": "group B, factoid, similarity"
+        },
+        {
+            "question": "Antibiotics are used both from animals and humans?",
+            "answer": "Yes",
+            "entity": "CONFIRMATION",
+            "note": "group B, factoid, similarity"
+        },
+        {
+            "question": "What has the overuse of antibiotics caused?",
+            "answer": "some bacteria have developed resistance",
+            "entity": "CAUSATION",
+            "note": "group C, snippet,causation, syntax"
+        },
+        {
+            "question": "What problem is characterized as 'serious threat'?",
+            "answer": "antimicrobial resistance",
+            "entity": "UNKNOWN",
+            "note": "group C, factoid, syntax"
+        }
+    ]
+},
+{
+    "id": 28,
+    "title": "Tiramisu",
+    "text": "Tiramisu (from the Italian language, spelled tiramisù [ˌtiramiˈsu], meaning 'pick me up' or 'cheer me up')      is a coffee-flavoured Italian dessert. It is made of ladyfingers (savoiardi) dipped in coffee, layered with a       whipped mixture of eggs, sugar, and mascarpone cheese, flavoured with cocoa. The recipe has been adapted into many varieties of cakes and other desserts.         Its origins are often disputed among Italian regions of Veneto and Friuli-Venezia Giulia.          Most accounts of the origin of tiramisu date its invention to the 1960s in the region of Veneto,          Italy, at the restaurant 'Le Beccherie' in Treviso. Specifically, the dish is claimed to have first been          created by a confectioner named Roberto Linguanotto, owner of 'Le Beccherie'.  Category              Dessert recipes Servings     4-6 Energy     200 Cal (800 kJ) Time     15 minutes + 1 hour refrigeration Difficulty: 2/5           Ingredients for 6–8 people     4 egg whites     2 egg yolks     100 g (1/2 cup) of sugar                500 g (2 1/2 cups) of mascarpone cheese     4 small coffee cups of espresso coffee                  400 g of lady fingers (savoiardi) (or sponge cake) unsweetened cocoa powder to sprinkle over before serving               Preparation                      Make espresso coffee, let it cool a bit.     Separate the egg yolks and the whites of two eggs in two bowls.     Beat sugar into the egg yolks. Beat the Mascarpone into the sweetened yolks.     Add two more egg whites to the other two and whisk until they form stiff peaks. Fold gently egg whites into Mascarpone mixture.     Quickly dip both sides of the ladyfingers in the espresso.     Layer soaked ladyfingers and Mascarpone in a large bowl or pan (start with fingers, finish with mascarpone).     Sprinkle unsweetened cocoa powder on top just before to serve.     Refrigerate for one hour or two.                                 ",
+    "qa": [{
+            "question": "What a ladyfinger is?",
+            "answer": "Ladyfingers, sometimes known by their original Italian name savoiardi,          or as sponge fingers in British English, are low density, dry, egg-based, sweet sponge biscuits roughly shaped like a large finger.",
+            "entity": "DEFINITION",
+            "note": "group C, factoid, spotlight"
+        },
+        {
+            "question": "Tiramisu is an alternative name for cheesecake?",
+            "answer": "No",
+            "note": "group C, confirmation, spotlight"
+        },
+        {
+            "question": "What tiramisu means?",
+            "answer": "pick me up / cheer me up",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "From which Italian regions has its origins this dessert?",
+            "answer": "Veneto and Friuli-Venezia Giulia",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What is the name of the restaurant that the first tiramisu was made?",
+            "answer": "Le Beccherie",
+            "entity": "ORGANIZATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Who has made the first tiramisu?",
+            "answer": "Roberto Linguanotto",
+            "entity": "PERSON",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What kind of coffee is used in tiramisu?",
+            "answer": "espresso",
+            "entity": "INGREDIENT",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "List some ingredients of tiramisu?",
+            "answer": "eggs, sugar, mascarpone cheese, espresso coffee, cocoa",
+            "entity": "INGREDIENT",
+            "note": "group A, list"
+        },
+        {
+            "question": "How can I prepare tiramicu?",
+            "answer": "Make espresso coffee, let it cool a bit. Separate the egg yolks and the whites of two eggs in two bowls. Beat sugar into the egg yolks. Beat the Mascarpone into the sweetened yolks. Add two more egg whites to the other two and whisk until they form stiff peaks. Fold gently egg whites into Mascarpone mixture. Quickly dip both sides of the ladyfingers in the espresso. Layer soaked ladyfingers and Mascarpone in a large bowl or pan (start with fingers, finish with mascarpone). Sprinkle unsweetened cocoa powder on top just before to serve. Refrigerate for one hour or two.",
+            "entity": "RECIPE",
+            "note": "group C, procedural"
+        }
+    ]
+},
+{
+    "id": 29,
+    "title": "Usual suspects",
+    "text": "The Usual Suspects is a 1995 neo-noir mystery film directed and co-produced      by Bryan Singer and written by Christopher McQuarrie.               It stars Stephen Baldwin, Gabriel Byrne, Benicio del Toro, Kevin Pollak, Chazz Palminteri, Pete Postlethwaite,      and Kevin Spacey.  The film was shown out of competition at the 1995 Cannes Film Festival,      and then initially released in a few theaters. It received favorable reviews and was eventually given a wider release.      McQuarrie won an Academy Award for Best Original Screenplay and Spacey won the Academy Award for Best      Supporting Actor for his performance. The Writers Guild of America ranked the film as having the      35th greatest screenplay of all time.              A criminal, Dean Keaton, is lying badly wounded on a ship docked in San Pedro Bay.      He is confronted by a mysterious figure whom he calls \"Keyser\",      who shoots him dead and sets fire to the ship. The next day, the police       recover twenty-seven bodies and only two survivors: Arkosh Kovash,       a Hungarian mobster hospitalized with severe burns, and Roger \"Verbal\" Kint,       a con artist with cerebral palsy. U.S. Customs agent Dave Kujan flies from New York City to interrogate Verbal.       The events that led Keaton, Michael McManus, Fred Fenster, Todd Hockney, and Verbal onto the ship are then       described by Verbal via flashback.  Six weeks earlier in New York, Verbal and the other four criminals       were arrested as suspects in a truck-hijacking,        only to be released thanks to Edie Finneran, Keaton's lawyer and girlfriend. T       hey then decided to pull a heist to get revenge on the NYPD. Led by Keaton, they robbed        a jewel smuggler being escorted by corrupt cops,        netting millions in emeralds and getting over fifty cops arrested.        They then went to California to fence the jewels through a man named Redfoot,        who connects them with another jewel heist. The heist goes badly, and the men learn that the job was        arranged by a lawyer named Kobayashi. They meet Kobayashi, who says he arranged for their arrests in New York and that        his employer, Keyser Söze—a mysterious Turkish crime lord whom each of the men have unwittingly stolen from—has ordered them to raid a ship manned by Argentinian drug dealers and destroy $91 million worth        of cocaine being sold on board. Their reward will be the cash brought for the exchange, and being freed         from Söze's influence.  During Kovash's interrogation, it is learned that there was no cocaine         on the ship and that Söze was seen on board. Verbal then tells Kujan a legend about Söze: that he had murdered         his own family when they were being held hostage by Hungarian mobsters, and then massacred the mobsters and their         families before disappearing, doing business only through underlings who did not know who they were working for.          Söze thus became a fearsome urban myth, \"a spook story that criminals tell their kids at night\".  Concluding his story, Verbal reveals Fenster was killed trying to flee; the men then threatened Kobayashi, only to accept the assignment when he threatened their loved ones. The men attack the ship during the night, killing several Argentinian and Hungarian gangsters before discovering there is no cocaine.          Hockney, a prisoner in one of the cabins, McManus, and then Keaton are killed by an unseen assailant,          who sets fire to the ship as Verbal looks on from a hiding place on the dock.  Kujan deduces that Keaton must be Söze,          as the prisoner killed on the ship was Arturo Marquez, a smuggler who escaped prosecution by claiming           he could identify Söze. Marquez was being represented by Edie Finneran,            who has also been recently murdered. Kujan claims that the Argentinians took Marquez to sell            him to Söze's Hungarian rivals; Keaton then used the assault so that he could kill Marquez            personally and fake his own death. Verbal finally confesses that Keaton had been behind everything,            but refuses to testify in court. Verbal's bail is posted and he is released.  Moments later, Kujan realizes that Verbal had been lying, piecing together details for his story from items posted on a crowded bulletin board in the office, and the \"Kobayashi\" brand on the bottom of the coffee mug Kujan was drinking from.            Meanwhile, Verbal walks outside, gradually losing his limp and flexing            his supposedly disabled hand. As Kujan pursues Verbal, a fax arrives from the hospital where Kovash has finally provided a facial composite of Söze, which looks exactly like Verbal. Kujan misses Verbal by moments as the latter disappears into a car driven by \"Kobayashi\".",
+    "qa": [{
+            "question": "From what Verbal John is supposed to suffer?",
+            "answer": "cerebral palsy",
+            "entity": "MEDICAL TERM",
+            "note": "group C, factoid, spotlight"
+        },
+        {
+            "question": "Who has faked his own death?",
+            "answer": "Keaton",
+            "entity": "PERSON",
+            "note": "group C, factoid, syntax"
+        },
+        {
+            "question": "Where does the movie start?",
+            "answer": "San Pedro Bay",
+            "entity": "LOCATION",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "How many Oscars did the film won?",
+            "answer": "2",
+            "entity": "NUMBER",
+            "note": "group C, factoid,calculation"
+        },
+        {
+            "question": "What year did the movie released?",
+            "answer": "1995",
+            "entity": "YEAR",
+            "note": "group B, factoid"
+        },
+        {
+            "question": "Did the movie screened at the 1995 Venice Film Festival?",
+            "answer": "no",
+            "entity": "CONFIRMATION",
+            "note": "group B, confirmation"
+        },
+        {
+            "question": "Who has faked his own death?",
+            "answer": "Keaton",
+            "entity": "PERSON",
+            "note": "group C, factoid"
+        },
+        {
+            "question": " Who inquired Verbal?",
+            "answer": "Dave Kujan",
+            "entity": "PERSON",
+            "note": "group C, factoid"
+        },
+        {
+            "question": "Who was the President of the United States when the movie was released?",
+            "answer": "Bill Clinton",
+            "entity": "PERSON",
+            "note": "group C, temporal"
+        }
+    ]
+},
+{
+    "id": 30,
+    "title": "Premier_League",
+    "text": "The Premier League (often referred to as the English Premier League (EPL) outside England) is the top level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League (EFL). The Premier League is a corporation in which the member clubs act as shareholders. Seasons run from August to May with each team playing 38 matches (playing each other home and away). Most games are played on Saturday and Sunday afternoons. The Premier League has featured 47 English and two Welsh clubs since its inception, making it a cross-border league.      The competition was formed as the FA Premier League on 20 February 1992 following the decision of clubs in the Football      League First Division to break away from the Football League, founded in 1888, and take advantage of a lucrative television      rights deal. The deal was worth £1 billion a year domestically as of 2013–14, with BSkyB and BT Group securing the      domestic rights to broadcast 116 and 38 games respectively.      The league generates €2.2 billion per year in domestic and international television rights.      In 2014–15, teams were apportioned revenues of £1.6 billion, rising sharply to £2.4 billion in 2016–17.      The Premier League is the most-watched sports league in the world, broadcast in 212 territories to 643 million homes and a      potential TV audience of 4.7 billion people. In the 2014–15 season, the average Premier League      match attendance exceeded 36,000, second highest of any professional football league behind the Bundesliga's 43,500.      Most stadium occupancies are near capacity.      The Premier League ranks second in the UEFA coefficients of leagues based on performances in European competitions over the past five seasons, as of 2018. Forty-nine clubs have competed       since the inception of the Premier League in 1992. Six of them have won the title since then:       Manchester United (13), Chelsea (5), Arsenal (3), Manchester City (3),       Blackburn Rovers (1), and Leicester City (1). The record of most points in a Premier       League season is 100 by Manchester City in 2017–18. From 1993 to 2016, the Premier League had title sponsorship rights sold to two companies, which were Carling brewery and Barclays Bank PLC; Barclays was the most recent title sponsor, having sponsored the Premier League from 2001 until 2016 (until 2004, the title sponsorship was held through its Barclaycard brand before shifting to its main banking brand in 2004). Barclays' deal with the Premier League expired at the end of the 2015–16 season. The FA announced on 4 June 2015 that it would not pursue any further title sponsorship deals for the Premier League, arguing that they wanted to build a \"clean\" brand for the competition more in line with those of major U.S. sports leagues",
+    "qa": [{
+            "question": "What Bundesliga is?",
+            "answer": " is a professional association football league in Germany and the football league with the highest average stadium attendance worldwide",
+            "entity": "DEFINITION",
+            "note": "group C, definition, spotlight"
+        },
+        {
+            "question": "Is Barclays still the sponsor of the Premier League?",
+            "answer": "No",
+            "entity": "CONFIRMATION",
+            "note": "group C, confirmation"
+        },
+        {
+            "question": "Man Utd or Arsenal are more succesfull regarding the number of titles?",
+            "answer": "Manchester United",
+            "entity": "NAME",
+            "note": "group C, factoid, comparison"
+        },
+        {
+            "question": "What is the nickname of Arsenal?",
+            "answer": "The Gunners",
+            "entity": "NAME",
+            "note": "group C, factoid, spotlight"
+        }
+    ]
+},
+{
+    "id": 31,
+    "title": "Zara privacy policy",
+    "text": " ZARA Privacy Policy  (Effective as of June 25, 2013) ZARA knows that  you care about how  your personal information is used and shared, and we take your privacy  seriously.  Our  Privacy Policy  below  applies  to  your  use  of  the  ZARA.COM  website and  co-branded  versions  of  the website located at URLs that resolve to the domain name ZARA.COM (the “Website” or “Site”). Because we  gather certain types of information about our users, we want you to understand what information we collect about  you, how we collect it, how that information is used, and how you can control our disclosure of it.  By visiting our Site, submitting information, using our services, and/or purchasing any products on our Website, you  acknowledge  that  you  accept  the  practices  and  policies outlined  in  the  then  current  Privacy  Policy  and  our  Terms and Conditions. You should review this Policy every time you use the Website to satisfy yourself that you  are  happy  with  it. References  in  this  Privacy  Policy  to  \"we,\"  \"us\"  and \"ZARA\"  are  to  ITX  USA  LLC  (doing  business as ZARA); and references to \"your\" or \"you\" include anyone who uses our Site and/or services and/or  purchases products from our Site. If you do not agree with this Privacy Policy, please do not use our Site. 1.   INFORMATION COLLECTED  We collect three types of information from you: i) information that you provide to us; ii) information we collect  or  receive  from  others;  and  iii)  information  that is  derived  through  automated  tracking  mechanisms and technology.  We  collect  information  when  you  register  online or  update  your  account,  log-in,  place  an  order,  communicate with  our  customer  service  representatives,  opt-in  to  receive our  e-mails,  shop  online,  request  a  catalog,  participate  in a  sweepstakes,  contest,  promotion  or  survey  or  join  our social  networking  sites.  We  may  also  collect  information from  you  in  our  stores  or  through  our  catalogs  or  other marketing  material.  This  information  may  include,  but  is not  limited  to,  your  contact  information  (for example, your name, e-mail address, billing and shipping addresses and phone number) and your  credit  card  and  debit  card  information.  If you  create  an  online  account,  you  also  have  the  option  of providing your product preferences and demographic information. If you use other functionalities found  on our Site, or if you choose to send an e-mail from our site to a friend, we will also collect your friend's  name  and  e-mail  address.  Your  friend’s information  is  only  used  to  send  the  forwarding  e-mail  and is  not saved in our customer or marketing databases. We may update and supplement personally identifiable information that we have collected directly from  you  with  other  information  that  we obtain  from  third  parties.  In  addition,  we  may  obtain personally  identifiable  information  about  individuals  who  are not  yet  users  of  our  Site.  When  we  associate  information that  we  obtain  from  third  parties  with  personally identifiable  information  that  we  have  collected under this Privacy Policy, we will treat the acquired information in the same way we treat the  information  that  we  collected  ourselves  and, except  as  set  forth  in  this  Privacy  Policy,  the information  will not be shared with third parties. We may collect information through automated tracking mechanisms and technology to make our Site  more interesting and useful to you and for various purposes related to our business. For instance, when  you come to our Site, we may collect information about your computer, including where available your  IP   address,   operating   system   and browser   type.   Such   information   may   be   used   for system  administration  and  to  analyze  the  frequency  with which  visitors  to  our  Site  visit  various  parts  of  our sites; and we may combine such information with personally identifiable information.   We also use \"cookies,\" Web beacons, and other tracking technologies. Cookies are small data files that are  automatically  stored  on  your  computer  when  you  visit our  Website.  Cookies  are  used  to  track  the  pages of the websites you have visited and do not retain any personally identifiable information such as  your name, address or any credit/debit card information. We may use cookies to, among other things,  enable  you  to  use  certain  Website  features, remember  the  items  in  your  shopping  cart,  store  your preferences,  recognize  you  when  you  return  to  our  Website, speed  up  your  searches,  track  your  orders,  and  monitor  and maintain  information  about  your  general  Internet  usage  and use  of  our  Website. Cookies help us to improve our Website and to deliver a better and more customized service.  They  allow  us  to customize  our  Website  according  to  your  individual interests.  You  may  refuse  to  accept  cookies  by  activating the  setting  on  your  browser  which  allows  you  to  refuse the  setting  of  cookies. However, if you select this setting you may be unable to access certain parts of the Website or  unable to use some or all of our services. Unless you have adjusted your browser setting so that it will  refuse cookies, our system will issue cookies when you log  on to our Site. By using our Website, you  consent to our placement of cookies on your computer.  You may occasionally get cookies from our business partners or other third parties. We have no control  over  these  cookies.  We  may  also use  cookies  and  other  analytic  systems  to  gather information  and  prepare  reports  on  website  activity  and  to provide  other  services  related  to  your  website  activity  and use of the Internet.  By using this website you agree to the treatment of information relative to you by  Google in the form and with the aims above indicated.  This  Website  may  use  tracking tags  in  certain  pages  to  measure  and  optimize  marketing campaign  results. It will not store, in any event, personal user information. Web beacons are small strings of code  that  are placed  in  a  website  page  or  in  an  e-mail  message.  They are  sometimes  called  \"clear  GIFs\"  (Graphics  Interchange Format)  or  \"pixel  tags.\"  Web  beacons  are  most  often  used in  conjunction  with  cookies  to  track  activity  on  our Website.  When  you  visit  a  particular  page,  web  beacons notify  us  of  your  visit.  Since  web  beacons  are  used  in combination  with  cookies,  if  you  disable  cookies  the  web beacons will only detect an anonymous Website visit. When used in an e-mail, Web beacons enable us  to know whether you have received the e-mail.   2.   HOW WE USE YOUR INFORMATION  Personal  data  you provide  and/or  we  collect  will  be  kept  by  ZARA  and/or  its affiliated  companies  for,  among other things:   i.  the performance  and  enforcement  of  the  purchase  and  sale contract  over  the  products  you  have purchased, or of any other contract between you and us;   ii.  attending to your requests, and;   iii.  providing  you  with  information  about  ZARA products  or  of  any  other  company  belonging  to  ZARA  and its  affiliates,  sending  commercial  communications  by  e-mail and/or  by  any  other  equivalent  electronic  communication means  (such  as  SMS),  and/or  by  other  means  of communication.    You    can    change    your    preference in    respect    to    receiving    such  communications by logging into the MY ACCOUNT section of this Website and changing your preferences.  You can stop receiving ZARA’S newsletter by accessing the Newsletter section  and choosing to unsubscribe (opt-out). iv.  Should you choose to check the option to store your PAYMENT DATA (i.e. credit / debit card  data),  you  expressly  authorize us  to  process  and  store  the  data  indicated  as  necessary for  activation  and  development.  The Card-Verification-Value-Code  (CVV)  will  only  be  used  to  make able the purchase in progress, and will not be stored or processed subsequently as part  of your PAYMENT DATA.   Giving  us  your consent  to  activate  this  functionality,  allows  your  data  to appear  auto  filled  in  subsequent  purchases  on  this  website, so  you  will  not  need  to  enter  the  data  in  each  new process, and such consent shall be valid and effective for subsequent purchases.  You can change your PAYMENT DATA and revoke your consent for processing and storing  at any time through My Account section – Payment Data.  ZARA stores and transmits your cards data according to the main standards of confidentiality  and security  of  credit  and  debit  cards,  in  compliance  with Payment  Card  Industry  Data  Security Standard (PCI DSS).  When using  this  functionality,  changing  your  password  may  be requested  for  security  reasons.  Remember  that  the  safety  in use  of  the  website  also  depends  on  proper  use  and conservation of certain key/passwords confidential.  We also maintain a record of your purchases made on our Website and combine this with information  you have provided in our retail stores or over the phone in order to serve you better. We may combine information  you  provide  with  demographic  information  and information  that  is  publicly  available.  We  may  also  use information  about  your  product  preferences  and  interests  in order  to  improve  our  site  design and enhance your shopping experience.   To fulfill the purposes above, we disclose the information that you have provided to us to Industria de  Diseño Textil,  S.A.  (Inditex,  S.A.),  holding  company  of  the Inditex  Group  to  which  ITX  USA  LLC  belongs, with registered address at Avenida de la Diputación, Edificio Inditex, 15142 Arteixo, A Coruña  (Spain).  We  may  also  disclose  this information  to  third  party  processors,  fulfillment  centers, financial  institutions or other third party service providers who help with our business operations (such as fraud  investigations, bill  collection,  affiliate  and  rewards  programs)  or  as necessary  to  process  your  purchases.  By  providing information  in  this Website  or  otherwise  to  us,  you expressly  authorize  us  to  disclose and process your information as described.   We  may  permit  certain  trusted  third  parties to  track  usage,  analyze  data  such  as  the  source  address that  a  page  request  is  coming  from,  your  IP  address  or domain  name,  the  date  and  time  of  the  page  request,  the referring  website  (if  any)  and  other  parameters  in  the URL.  This  is  collected  in  order  to  better  understand Website  usage,  and  enhance  the  performance  of  services  to maintain  and  operate  the  Site  and  certain  features  on  the Site.  We  may  use  third  parties  to  host  the  Site,  operate various  features available on the  Site, send  e-mails, analyze data, and  provide search results and links. Also,  we  may  share personally  identifiable  or  other  information  with  our  parent companies,  subsidiaries,  divisions, affiliates, consultants, contractors and sub-contractors.   We may transfer personally identifiable information as an asset in connection with a proposed or actual  merger  or  sale  (including  any  transfers  made  as part  of  an  insolvency  or  bankruptcy  proceeding)  involving all or part of our business or as part of a corporate reorganization, stock sale or other change  in control.  We  use  non-identifying and  aggregate  information  to  better  design  our  website  and for  business  and  administrative purposes. We may also use or share with third parties for any purpose aggregated data  that contains no personally identifiable information.  WE  ARE  NOT LIABLE  OR  RESPONSIBLE  FOR  THE  PERSONALLY  IDENTIFIABLE  OR OTHER  INFORMATION  YOU  CHOOSE  TO  SUBMIT  IN  FORUMS  SUCH  AS A  COMMENT  AREA  OR  ANY  OTHER PUBLICLY ACCESSIBLE AREA OF THE SITE.   ZARA  may  disclose  personally  identifiable  information in  special  cases  where  we  have  reason  to  believe  that disclosing  this  information  is  necessary  to  identify, contact  or  bring  legal  action  against  someone  who  may  be violating  our  Terms  and  Conditions  of  use  or  may  be causing  injury  or  interference with our rights, property, our customers or anyone who could be harmed by such activities.  You should also be aware that  we may  disclose specific information about you if required to do so by  law, governmental request, process or court order or based on our good faith belief that it is necessary  to conform or comply with such law, request or court order or to protect the users of our websites or the  public.   You will  receive  notice  when  your  personally  identifiable information  might  be  provided  to  any  third  party for any reason other than  as set forth in this Privacy  Policy, and  you will have an opportunity to  request that we not share such information.  3.   HOW WE PROTECT YOUR INFORMATION  We  are committed  to  protecting  the  information  we  receive  from you.  Any  personal  information  you  provide to  us is maintained on  secure servers and  our internal systems. We take appropriate security  measures  to  protect  your  information  against unauthorized  access  to  or  unauthorized  alteration,  disclosure or destruction of data. To prevent unauthorized access, maintain data accuracy, and ensure  the correct use of information, we maintain appropriate physical, electronic, and managerial procedures  to safeguard and secure the information and data stored on our system. While no computer system is  completely  secure,  we believe  the  measures  we  have  implemented  reduce  the likelihood  of  security  problems to a level appropriate to the type of data involved.  4.   ACCESSING    AND    UPDATING    YOUR PERSONAL    INFORMATION    AND  PREFERENCES  We  provide mechanisms  for  updating  and  correcting  your  personal information  for  many  of  our  services.  If  you  are  a registered  user,  you  may  access  and  update  your registration  information  and  your preferences to receive e-mail or other communications from us in the account area or by sending an e-mail to  contact.us@zara.com 5.   E-MAIL CHOICE/OPT-OUT  If any  user  who  receives  an  e-mail  from  the  Site  would prefer  not  to  receive  such  communications  in  the future, [he or she] can do so by following the instructions in the e-mails. In addition, at any time you  may access the Newsletter section on the Site and choose to unsubscribe (opt-out) or send an e-mail  to contact.us@zara.com .  We  will  make  commercially  reasonable efforts  to  implement  your  opt-out  requests promptly, but you may still receive communications from us for up to ten business days as we  process your request.  6.   CHILDREN’S PRIVACY   We do not knowingly collect any personal information from children under 13. We do not sell products  for purchase by children and all children's products we sell are for purchase by adults only. If you are  not 18 or older, you are not authorized to use the Site. Parents should be aware that there are parental  control  tools  available  online that  can  be  used  to  prevent  children  from  submitting information  online  without parental permission or from accessing material that is harmful to minors.  7.   DISCLAIMER TO SECURITY  By consenting to the Terms and Conditions of the Site and the Privacy Policy, you acknowledge that no  data  transmission  over  the Internet  is  completely  secure.  Although  we  have  implemented reasonable  technical  and  organizational  measures  according  to our  written  information  security  policy,  we  cannot  guarantee or  warrant  the  security  of  any  information  you  provide  to us  and  you  transmit  such  information to us at your own risk. 8.   YOUR CALIFORNIA PRIVACY RIGHTS  ZARA collects various types of personal information about you both online and offline, as described in  this  Privacy  Policy.  Under  California  law,  customers  of ZARA  who  are  residents  of  California  may  request certain information about our disclosure of personal information during the prior calendar year  to  third  parties  for  their  direct marketing  purposes.  ZARA  does  not  disclose  personal information  to  unaffiliated third parties for these purposes. To make such a request, please write to us at the following  address: ITXUSA LLC: 500 5th Avenue, Suite 400, New York, NY 10110. USA Alternatively,  you  may  send  an  e-mail  to  contact.us@zara.com with  the  words  \"California  Privacy  Rights\" in the subject line.   9.   CUSTOMIZED ADVERTISING  Advertisements displayed to you on our websites and elsewhere on the Internet may be customized to your interests and preferences, based  on information learned about you  as you use our websites and  the  Internet  in general. If you do not want to participate in this,  please visit http://www.networkadvertising.org/managing/opt_out.asp  to opt-out.   10. LINKS TO OTHER WEBSITES  To  enhance  your  shopping experience,  our  Website  may  include  links  to  other  sites. Those  websites  will have their own privacy policies that you may wish to review. ZARA has no responsibility for these  linked websites.  11. PRIVACY POLICY UPDATES  We  may  update  our Privacy  Policy  from  time  to  time. Whenever  we  make  a change,  we  will  post  the  updated  Policy  at  this  Site  and we  encourage  you  to  check  our  Policy  periodically.  If  we make  a  material  change  to  our  Privacy  Policy  that  would lessen  your  privacy  rights,  we  will  either  continue  to honor  our  Prior  Policy  for  information  that  we  collected when  it  was  in  force,  or  we  will  ask  for  your  consent to  the  change.  If  you  have  any  questions  or  concerns regarding  our  Privacy  Policy,  please  contact us at: contact.us@zara.com    ",
+    "qa": [{
+        "question": "Does ZARA collect personal information for minors (children)?",
+        "answer": "Yes",
+        "entity": "CONFIRMATION",
+        "note": "group C, confirmation"
+    }]
+},
+{
+    "id": 32,
+    "title": "Michael Jordan",
+    "text": "Michael Jeffrey Jordan (born February 17, 1963), also known by his initials, MJ, is an American former professional basketball player. He played 15 seasons in the National Basketball Association (NBA) for the Chicago Bulls and Washington Wizards. His biography on the official NBA website states: \"By acclamation, Michael Jordan is the greatest basketball player of all time.\" Jordan was one of the most effectively marketed athletes of his generation and was considered instrumental in popularizing the NBA around the world in the 1980s and 1990s. He is currently the principal owner and chairman of the NBA's Charlotte Hornets. Jordan played three seasons for coach Dean Smith at the University of North Carolina. As a freshman, he was a member of the Tar Heels' national championship team in 1982. Jordan joined the Bulls in 1984 as the third overall draft pick. He quickly emerged as a league star and entertained crowds with his prolific scoring. His leaping ability, demonstrated by performing slam dunks from the free throw line in Slam Dunk Contests, earned him the nicknames Air Jordan and His Airness. He also gained a reputation for being one of the best defensive players in basketball. In 1991, he won his first NBA championship with the Bulls, and followed that achievement with titles in 1992 and 1993, securing a \"three-peat\". Although Jordan abruptly retired from basketball before the beginning of the 1993–94 NBA season, and started a new career in Minor League Baseball, he returned to the Bulls in March 1995 and led them to three additional championships in 1996, 1997, and 1998, as well as a then-record 72 regular-season wins in the 1995–96 NBA season. Jordan retired for a second time in January 1999, but returned for two more NBA seasons from 2001 to 2003 as a member of the Wizards.\",      Jordan married Juanita Vanoy in September 1989, and they had two sons, Jeffrey Michael and Marcus James, and a daughter, Jasmine Mickael. Jordan and Vanoy filed for divorce on January 4, 2002, citing irreconcilable differences, but reconciled shortly thereafter. They again filed for divorce and were granted a final decree of dissolution of marriage on December 29, 2006, commenting that the decision was made \"mutually and amicably\". It is reported that Juanita received a $168 million settlement (equivalent to $209 million in 2018), making it the largest celebrity divorce settlement on public record at the time.  In 1991, Jordan purchased a lot in Highland Park, Illinois, to build a 56,000 square-foot (5,200 m2) mansion, which was completed four years later. Jordan listed his Highland Park mansion for sale in 2012. His two sons attended Loyola Academy, a private Roman Catholic high school located in Wilmette, Illinois. Jeffrey graduated as a member of the 2007 graduating class and played his first collegiate basketball game on November 11, 2007, for the University of Illinois. After two seasons, Jeffrey left the Illinois basketball team in 2009. He later rejoined the team for a third season, then received a release to transfer to the University of Central Florida, where Marcus was attending. Marcus transferred to Whitney Young High School after his sophomore year at Loyola Academy and graduated in 2009. He began attending UCF in the fall of 2009, and played three seasons of basketball for the school. Jordan's nephew through his brother Larry, Justin Jordan, played Division I basketball at UNC Greensboro.  On July 21, 2006, a judge in Cook County, Illinois, determined that Jordan did not owe his alleged former lover Karla Knafel $5 million in a breach of contract claim. Jordan had allegedly paid Knafel $250,000 to keep their relationship a secret. Knafel claimed Jordan promised her $5 million for remaining silent and agreeing not to file a paternity suit after Knafel learned she was pregnant in 1991.  A DNA test showed Jordan was not the father of the child.  He proposed to his longtime girlfriend, Cuban-American model Yvette Prieto, on Christmas 2011, and they were married on April 27, 2013, at Bethesda-by-the-Sea Episcopal Church. It was announced on November 30, 2013, that the two were expecting their first child together. On February 11, 2014, Prieto gave birth to identical twin daughters named Victoria and Ysabel.",
+    "qa": [{
+            "question": "List  Michael Jordan's wives?",
+            "answer": "Juanita Vanoy, Yvette Prieto",
+            "entity": "LIST",
+            "note": "group B, list"
+        },
+        {
+            "question": "With which women Michael Jordan has tied the knot?",
+            "answer": "Juanita Vanoy, Yvette Prieto",
+            "entity": "LIST",
+            "note": "group B, list"
+        },
+        {
+            "question": "What team did Michael Jordan play for after the Bulls?",
+            "answer": "Washington Wizards/Wizards",
+            "entity": "ORGANIZATION",
+            "note": "group C, temporal"
+        },
+        {
+            "question": "Who is Michael Jordan second wife?",
+            "answer": "Yvette Prieto",
+            "entity": "PERSON",
+            "note": "group C, temporal"
+        }
+    ]
+},
+{
+    "id": 33,
+    "title": "Hotel review - Veneziano",
+    "text": "If you want to feel taken care of by the staff like a prince, this is the place to which you have to come. Unusually high level of service.    Kitchen:  It is very tasty and the prices are acceptable. We had a lot of taverns nearby, but we decided that we wouldn't eat as tasty anywhere as in a hotel. This is unprecedented! Dinners prepared especially for us - not listed in the menu! Special gluten-free meals are prepared for the wife.    Hotel room:  Very tall and tastefully decorated. It is cleaned daily. Comfortable beds.  The only minor drawback was the lack of integrated window ventilators, which made it possible to feel the moisture after bathing.    Internet:  Very fast and trouble-free hotel internet. Very good wi-fi.    Staff:  Excellent. Everyone. In the kitchen, in the restaurant, in the bar, the cleaning lady. . . Everyone wants to help you and make your stay even better. People are the great advantage of this hotel.    Area:  Well... it is the middle of the Greek city. If you expect a beach, it's not here (...it's not far away either), but if you want to have an excellent starting point for exploring the city, all the attractions, etc. - this is the place.  No window ventilators to improve air circulation. This is not a huge problem, but it would improve the comfort. ",
+    "qa": [{
+            "question": "What does this review consider as the best aspect?",
+            "answer": "No window ventilators",
+            "entity": "ASPECT",
+            "note": "group C, opinion"
+        },
+        {
+            "question": "Is the client overall satisfy by this hotel?",
+            "answer": "Yes",
+            "entity": "CONFIRMATION",
+            "note": "group C, opinion"
+        },
+        {
+            "question": "What are the positive aspects mentioned in this review?",
+            "answer": "kitchen, staff, area, internet, room",
+            "entity": "ASPECT",
+            "note": "group C, opinion"
+        },
+        {
+            "question": "Does the review mention Safety?",
+            "answer": "No",
+            "entity": "CONFIRMATION",
+            "note": "group C, opinion"
+        }
+    ]
+},
+{
+    "id": 34,
+    "title": "Present",
+    "text": "John likes Mary. He gives her a present.",
+    "qa": [{
+            "question": "Who likes Mary?",
+            "answer": "John",
+            "entity": "PERSON",
+            "note": "group C"
+        },
+        {
+            "question": "What Mary received?",
+            "answer": "a present",
+            "entity": "OBJECT",
+            "note": "group C"
+        }
+    ]
+},
+{
+    "id": 35,
+    "title": "Meeting",
+    "text": "John had a meeting in the university. However, he left for the university quite late this morning and he missed the bus of 8:30. When he arrived, Tom met him in the corridor, just a few meters from the entrance of the meeting room. He told him that everyone was waiting for him. He took a big breath and entered into the room with a big smile.. ",
+    "qa": [{
+            "question": "Who smiled?",
+            "answer": "John",
+            "entity": "PERSON",
+            "note": "group C, anaphora"
+        },
+        {
+            "question": "How many were in the meeting room?",
+            "answer": "At least two",
+            "entity": "UNKNOWN",
+            "note": "group C"
+        },
+        {
+            "question": " What time John arrived at the meeting?",
+            "answer": "After 8:30",
+            "entity": "HOUR-RELATED",
+            "note": "group C"
+        }
+    ]
+},
+{
+    "id": 36,
+    "title": "Football",
+    "text": "John scored two goals in the last 5 minutes of the game giving 3 points to his football team.                    The goalkeeper of the other team was very sad. John's team did not play well but was lucky in the last minutes. On the contrary, the opposing team, despite having made many final attempts, did not score any goals.  Ergotelis needed these points for securing its position in the super league. On the other hand, Olympiakos lost 3 valuable points and his fans disapproved the players at the end of the match.",
+    "qa": [{
+            "question": "Why was the goalkeeper very sad?",
+            "answer": "Because he got 2 goals over the last 5 minutes of the game and his team lost.",
+            "entity": "UNKNOWN",
+            "note": "group C, causal"
+        },
+        {
+            "question": "How many goals Jon scored?",
+            "answer": "Two/2",
+            "entity": "UNKNOWN",
+            "note": "group C, wrong spelling of name"
+        },
+        {
+            "question": "Which team played better?",
+            "answer": "The opposing team",
+            "entity": "UNKNOWN",
+            "note": "group C, comparison"
+        },
+        {
+            "question": "Which team was more apt?",
+            "answer": "John's team",
+            "entity": "UNKNOWN",
+            "note": "group C, comparison"
+        },
+        {
+            "question": "What's the name of the John's team?",
+            "answer": "Ergotelis",
+            "entity": "Team",
+            "note": "group C, comparison"
+        },
+        {
+            "question": "The fans of Olympiacos were positive or negative at the and of the game?",
+            "answer": "Negative",
+            "entity": "Team",
+            "note": "group C, sentiment"
+        }
+    ]
+},
+{
+    "id": 37,
+    "title": "El Greco",
+    "text": "El Greco was born in the Kingdom of Candia, which was at that time part of the Republic of Venice, and the center of Post-Byzantine art. He trained and became a master within that tradition before traveling at age 26 to Venice, as other Greek artists had done.[3] In 1570 he moved to Rome, where he opened a workshop and executed a series of works. During his stay in Italy, El Greco enriched his style with elements of Mannerism and of the Venetian Renaissance taken from a number of great artists of the time, notably Tintoretto. In 1577, he moved to Toledo, Spain, where he lived and worked until his death. In Toledo, El Greco received several major commissions and produced his best-known paintings.",
+    "qa": [{
+            "question": "Is El Greco related to Crete?",
+            "answer": "Yes",
+            "entity": "PERSON",
+            "note": "group C, historical background"
+        },
+        {
+            "question": "Is El Greco alive?",
+            "answer": "No",
+            "entity": "CONFIRMATION",
+            "note": "group C"
+        },
+        {
+            "question": "What is the birthplace of El Greco?",
+            "answer": "Heraklion OR Kingdom of Candia",
+            "entity": "LOCATION",
+            "note": "group C"
+        },
+        {
+            "question": "Where is the Kingdom of Candia?",
+            "answer": "This is what is currently called Heraklion city in Crete, GREEECE",
+            "entity": "LOCATION",
+            "note": "group C, historical background"
+        },
+        {
+            "question": "Where El Greco lived the first 18 years of his life?",
+            "answer": "Heraklion OR Kingdom of Candia",
+            "entity": "EXTREME",
+            "note": "group C"
+        },
+        {
+            "question": "Tell me the 5 more related words/concepts to Mannerism",
+            "answer": "...",
+            "entity": "EXTREME",
+            "note": "group C"
+        },
+        {
+            "question": "Show me a few indicative paintings of Mannerism style",
+            "answer": " url ths wikipedia gia to mannerism",
+            "entity": "EXTREME",
+            "note": "group C, With Examples"
+        },
+        {
+            "question": "Tell me the 5 more related painters to El Greco",
+            "answer": "...",
+            "entity": "EXTREME",
+            "note": "group C, With Examples"
+        },
+        {
+            "question": "In which coutries El Greco lived?",
+            "answer": "Greece, Italy, Spain",
+            "entity": "EXTREME",
+            "note": "group C, list"
+        }
+    ]
+},
+{
+    "id": 38,
+    "title": "Harry Potter",
+    "text": "The Harry Potter books make up the popular series written by J. K. Rowling. The series spans seven books. The books have been made into movies by Warner Bros. Pictures with the last book split into two films.  The books concern a wizard called Harry Potter and his journey through Hogwarts School of Witchcraft and Wizardry. The stories tell of him overcoming dangerous obstacles to defeat the Dark wizard Lord Voldemort who killed his parents when Harry was 15 months old. The first book, Harry Potter and The Philosopher's Stone, was published in 1997 by Bloomsbury in London. The last book, Harry Potter and the Deathly Hallows, sold more than 12 million copies in the U.S.  Beginning on 6 October, 2015, the entire series was presented in a fully-illustrated format, with over 100 illustrations per title, by Jim Kay. The 7 books were also all reunited in one ebook the same year.       Original series  The following is a list of the seven books in the Harry Potter Series. Each novel corresponds to a year-long period of time, usually in reference to Harry Potter's year at Hogwarts School of Witchcraft and Wizardry.      Harry Potter and the Philosopher's Stone (\"Harry Potter and the Sorcerer's Stone\" in the U.S) (UK release: 26/06/97; US release 9/01/98)     Harry Potter and the Chamber of Secrets (UK release: 2/07/98; US release 6/02/99)     Harry Potter and the Prisoner of Azkaban (UK release: 8/07/99; US release 9/08/99) Harry Potter and the Goblet of Fire (UK & US releases: 8/07/00)     Harry Potter and the Order of the Phoenix (UK & US releases: 21/06/03)     Harry Potter and the Half-Blood Prince (UK & US releases: 16/07/05)     Harry Potter and the Deathly Hallows (UK & US releases: 21/07/07)    ",
+    "qa": [{
+            "question": "What is the name of the first Harry Potter novel?",
+            "answer": "Harry Potter and the Philosopher's Stone",
+            "entity": "TITLE",
+            "note": "group C, temporal, ordinal"
+        },
+        {
+            "question": "What is the name of the fifth Harry Potter novel?",
+            "answer": "Harry Potter and the Order of the Phoenix",
+            "entity": "TITLE",
+            "note": "group C, temporal,ordinal"
+        },
+        {
+            "question": "When did the 7th harry potter book come out?",
+            "answer": "21/07/07",
+            "entity": "DATE",
+            "note": "group C, temporal,ordinal"
+        }
+    ]
+},
+{
+    "id": 39,
+    "title": "Python",
+    "text": "Matlab is faster than Python in many perspective and overall the performance depends. Python is strictly a programming language but Matlab maybe classified as a tool rather than strictly being a programming language in itself. As the name suggests Matlab is more based on solving mathematical operations. Matlab and Python, both are just derived from primitive hard-code programming language like C and Fortran. Both languages are based on solving operations involving matrix operations. But MatLab can be seen a bit faster due to the involvement of certain packages in Python which adds an extra step to the solving of the problem. Python mostly solves all mathematical problems involving packages like Numpy and scipy for numerical python computation and scientific python computation respectively. But hence the question revolves around the fact of the usage of the two programming tools for data science and Machine Learning; clearly Python stands out due to its flexibility, relevant modules and package availability and it's popularity. But Matlab lacks a good open source environment and is difficult to operate when the data can't be represented in the form of matrices. Matlab flaunts an amazing array of developer tools including IDEs (Integrated Development Environment), plug-ins, dev/build/deployment, etc. Though it has a machine learning library called MKL which is mostly used as mostly all Machine learning functions and algorithms are matrix functions and Matlab also provides the power of image analysis by signal processing, it has solid functions and also enables parallel execution of algorithms. The problem with Matlab being it's quite expensive and weak code portability amongst others. Python helps to improve its speed by using Cython library which integrates CUDA/C capabilities of your Python code making it faster, it's an elegant programming language too. Matlab can be slower in many respects where it fails to understand the data and what kind of library should be deployed for the same. Also when it fails to integrate the data in form of matrix or numerical function values. ",
+    "qa": [{
+        "question": "Is Python slower than Matlab?",
+        "answer": "No",
+        "entity": "CONFIRMATION",
+        "note": "group C, comparison"
+    }]
+},
+{
+    "id": 40,
+    "title": "Restaurant",
+    "text": "John and Maria went to dine together. Everything was going on fine. When they asked for the bill the power went out.  One lady got afraid of the darkness and started shouting. John asked Mary to give him her lighter. However Mary had forgotten it in the car.  After 10 minutes  John informed the waiter that they would leave and that he would pay the bill tomorrow.  Mary then suggested to John to leave the restaurant to go somewhere else. John agreed. John found his glasses with  the flashlight of his mobile phone. When they went out, they saw their friend Helen with the bicycle.",
+    "qa": [{
+            "question": "Did John and Maria eat?",
+            "answer": "Yes",
+            "entity": "CONFIRMATION",
+            "note": "group C, assumed script (you first eat and they you order the bill)"
+        },
+        {
+            "question": "Do John owe money to the restaurant?",
+            "answer": "Yes",
+            "entity": "CONFIRMATION",
+            "note": "group C, assumed script"
+        },
+        {
+            "question": "Is Maria a smoker?",
+            "answer": "Yes",
+            "entity": "CONFIRMATION",
+            "note": "group C, assumed domain model (usually you carry a lighter when you are a smoker)"
+        },
+        {
+            "question": "Who is the owner of the flashlight?",
+            "answer": "John",
+            "entity": "Person",
+            "note": "group C, domain model, syntax ambiguity"
+        },
+        {
+            "question": "Who has a bicycle?",
+            "answer": "Helen",
+            "entity": "Person",
+            "note": "group C, syntax ambiguity"
+        }
+    ]
+},
+
+{
+    "id": 41,
+    "title": "Aladdin",
+    "text": "Disney presents Aladdin  Breathtaking sets, mind-blowing special effects, over 350 lavish costumes  and a fabulous cast and orchestra combine to bring the magic of Disney’s Aladdin to life on the West End stage.      Featuring all the songs from the classic Academy Award-winning film including Friend Like Me,      A Whole New World and Arabian Nights, prepare to experience the      unmissable 'theatrical magic' (Daily Telegraph) that is Aladdin.      Recommended age 6+. Please note: children under 3 will not be admitted.      All persons aged 16 or under must be accompanied and sat next to the accompanying adult.      This production contains theatrical smoke and fog effects, pyrotechnics, strobe lighting and loud noises.    Performance Times Monday to Saturday at 7:30pm Thursday and Saturday at 2:30pm     The theatre usually opens 45-60 minutes prior to the performance commencing. We recommend that you arrive at least 30 minutes prior to the performance start time.      Duration The performance lasts approximately 2 hours and 30 minutes and includes one interval. Suitable For Children Aladdin is recommended for a general audience.      As an advisory to adults who might bring young people, Disney recommends Aladdin for ages 6 and up.      Children under the age of 3 will not be admitted into the theatre. All persons aged 16 or under must be accompanied and sat next to the accompanying adult. They may not sit on their own within the auditorium. If children do have separate seats you could be refused entry. All persons entering the theatre, regardless of age, must have a ticket.       Special effects Aladdin contains theatrical smoke & fog effects, pyrotechnics, strobe lighting and loud noises.       Recording equipment The use of camera and sound recording equipment is strictly prohibited.     The Prince Edward Theatre in London’s Soho is owned and operated by Delfont Mackintosh Theatres.",
+    "qa": [{
+            "question": "Who directed Aladdin?",
+            "answer": "Casey Nicholaw",
+            "entity": "PERSON",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Which theatre stages Aladdin?",
+            "answer": "Prince Edward Theatre",
+            "entity": "THEATRE",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "How many customs are used in the performance",
+            "answer": "350",
+            "entity": "NUMBER",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "What are the times of performances scheduled",
+            "answer": "Monday to Saturday at 7:30pm  and Thursday and Saturday at 2:30pm",
+            "entity": "UNKNOWN",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Where Prince Edward Theatre is located?",
+            "answer": "London Soho/Soho",
+            "entity": "LOCATION",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Who is the owner of Prince Edward Theatre?",
+            "answer": "Delfont Mackintosh Theatres",
+            "entity": "COMPANY",
+            "note": "group A, factoid"
+        },
+        {
+            "question": "Give me the related Wikipedia page for Alladin.",
+            "answer": "https://en.wikipedia.org/wiki/Aladdin_(2011_musical)",
+            "entity": "URL",
+            "note": "group C, factoid, WSD"
+        }
+
+    ]
+},
+{
+    "id": 42,
+    "title": "Gone with the wind",
+    "text": "Gone with the Wind is a 1939 American epic historical romance film, adapted from Margaret Mitchell's 1936 novel of the same name. The film was produced by David O. Selznick of Selznick International Pictures and directed by Victor Fleming. Set in the American South against the backdrop of the American Civil War and the Reconstruction era, the film tells the story of Scarlett O'Hara, the strong-willed daughter of a      Georgia plantation owner. It follows her romantic pursuit of Ashley Wilkes, who is married to his cousin, Melanie Hamilton, and her subsequent marriage to Rhett Butler. The leading roles are played by Vivien Leigh (Scarlett), Clark Gable (Rhett), Leslie Howard (Ashley), and Olivia de Havilland (Melanie).       Running time: 221 minutes 234–238 minutes (with overture, intermission, entr'acte, and exit music)      Budget: $3.85 million",
+    "qa": [{
+            "question": "Who played Scarlett O'Hara?",
+            "answer": "Vivien Leigh",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Who directed Gone with the Wind?",
+            "answer": "Victor Fleming",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "Where is the story set?",
+            "answer": "American South",
+            "entity": "LOCATION",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What are the genres of the movie?",
+            "answer": "epic,historical,romance",
+            "entity": "GENRE",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "When did the novel published?",
+            "answer": "1936",
+            "entity": "YEAR",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What is the name of the role played by Clark Gable?",
+            "answer": "Rhett",
+            "entity": "PERSON",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "What was the budget of the film?",
+            "answer": "$3.85 million",
+            "entity": "MONEY",
+            "note": "group A, factoid, verbatim"
+        },
+        {
+            "question": "In what historical periods the movie is set?",
+            "answer": "Americal Civil War, Reconstruction Era",
+            "entity": "HISTORICAL PERIOD",
+            "note": "group B, factoid, named entities"
+        },
+        {
+            "question": "Give me the related Wikipedia page for the Gone with the wind book.",
+            "answer": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(novel)",
+            "entity": "URL",
+            "note": "group C, factoid, WSD, morphology"
+        }
+    ]
+}
+
+]
